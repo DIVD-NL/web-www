@@ -62,3 +62,4 @@ exclude:
   - "*:Zone.Identifier"
   - "_config_livereload.yml"
   - "csirt.divd.nl"
+  - "vendor"
