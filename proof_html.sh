@@ -29,6 +29,7 @@ echo "*** Internal link check ***"
 htmlproofer \
 	--disable_external \
 	--allow-hash-href  \
+	--ignore-urls="/#menu/" \
 	_site
 echo "*** External link check ***"
 #(set +e ; htmlproofer \
