@@ -18,4 +18,4 @@ Researchers from DIVD CSIRT ran multiple global scans with nmap, a .nse script w
 
 A total of 34,830 notifications were sent to companies and agencies with vulnerable Fortinet VPN devices. We received some positive responses.
 
-As there were no other responses the case is closed. By means of the [FortiGuard PSIRT Advisory](http://www.fortiguard.com/psirt/FG-IR-18-384) you can check if your Fortinet VPN device is vulnerable.
+As there were no other responses the case is closed. By means of the [FortiGuard PSIRT Advisory](https://www.fortiguard.com/psirt/FG-IR-18-384) you can check if your Fortinet VPN device is vulnerable.
