@@ -34,3 +34,5 @@ fields:
 - type: text
   name: excerpt
   label: excerpt
+pages:
+- reports/report-divd-2022-00004-post-log4j.md
