@@ -14,7 +14,7 @@ These case reports give you insight into the kinds of vulnerabilities we found, 
 {% if p.url contains "/reports/" and p.url != page.url %}
 <hr>
 ### [{{ p.title}}]({{p.url}})
-*{{ p.date }}, by {{ p.author | default: "anonymous" }}*
+*{{ p.date | date_to_long_string }}, by {{ p.author | default: "anonymous" }}*
 
 {{ p.excerpt }}
 
