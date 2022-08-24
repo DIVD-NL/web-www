@@ -1,7 +1,7 @@
 ---
 layout: report
 title: REPORT - DIVD-2022-00004 - Post-Log4j
-date: 2022-08-04 00:00:00 +0200
+date: 2022-08-04T00:00:00.000+02:00
 author: Gerard Janssen
 lead: Max van der Horst
 csirt: []
@@ -11,7 +11,6 @@ researchers:
 - ''
 - ''
 excerpt: 'During the Log4J crisis Redis instances were used to exploit the Log4J vulnerability. '
-published: false
 
 ---
 During the Log4J crisis, DIVD researcher Max van der Horst noted that Redis instances were used to exploit the Log4J vulnerability. Redis is an open-source, in-memory data store used by millions of users as a database, cache, streaming engine, and message broker.
