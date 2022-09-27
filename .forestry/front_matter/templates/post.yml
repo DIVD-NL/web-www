@@ -16,3 +16,5 @@ fields:
 - type: textarea
   name: excerpt
   label: excerpt
+pages:
+- _posts/divd-onderzoeker-registreert-50e-cve.md
