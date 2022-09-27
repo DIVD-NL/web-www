@@ -14,7 +14,7 @@ fi
 echo "Updating cases"
 (
 	cd _cases
-	rm -f *
+	rm -rf *
 	cp -r ../csirt.divd.nl/_cases/* .
 )
 echo "Updating csirt posts"
