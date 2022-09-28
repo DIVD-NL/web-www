@@ -34,11 +34,13 @@ Dave Maasland, CEO of [ESET](https://www.eset.com/nl/) sponsored DIVD in 2021 by
 We have our office at LunaVia, which also help us out with administrative tasks and acquiring funding for our DIVD Academy.
 
 ### Protect4S
-
 [Protect4S](https://www.protect4s.com/) has supported DIVD with expertise on the security of SAP systems and resources to scan the internet for vulnerabilities related to SAP systems
 
 ### SIDN Fund
 [SIDN Fund](https://www.sidnfonds.nl/excerpt) provided financial support in 2020 to kick start DIVD.
+
+### Speak Freak
+Peter Zinn from [Speak Freak](https://speakfreak.eu/) provided presentation trainings to DIVD members
 
 ### Schuberg Philis
 [Schuberg Philis](https://www.schubergphilis.com) has provided us with support of some of their employees and equipment we have used for our scanning infrastructure.
