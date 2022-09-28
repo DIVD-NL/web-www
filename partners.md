@@ -15,6 +15,9 @@ Erik Bais, owner of [A2B-Internet](https://www.a2b-internet.com) was so kind to 
 ### Atom86
 [Atom86](https://atom86.net/) is sponsoring connectivity and rack space for our scanning infrastructure.
 
+### BIT
+[BIT](https://www.bit.nl/) is sponsoring hosting space for our websites and mail server capacity.
+
 ### Connect2Trust
 [Connect2Trust](https://www.connect2trust.nl) is a cooperation of Dutch (international) companies. Chairman of the Board Raymond Bierens has been with DIVD from the start on to help out and share knowledge.
 
