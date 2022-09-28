@@ -54,6 +54,12 @@ We represent a team of highly skilled security researchers who seek and report v
 	{%- endif -%}
 {% endfor %}
 
+## Advisors
+{% assign sorted = site.team | where: "dept", "Advisors" | sort: "appearance" %}
+{%- for member in sorted -%}
+- [{{ member.name }}]({{ member.url }})
+{% endfor %}
+
 <hr>
 ## Supervisory Board
 Hacker initiatives like these, tend to have their own dynamics: sparks lead to flames, which die out or lead to wildfires, wasting energy along the way. To keep our minds focused on our goal to make the digital world a safer place and provide helpful hackers a solid platform, we installed a Supervisory Board of cyber security heavyweights. Each board member also represents a sector we try to get along in reaching our goals, i.e.: law enforcement, intelligence services, cyber security companies and academia.
