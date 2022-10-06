@@ -2,7 +2,7 @@
 layout: post
 title: Jelle meldt kwetsbaarheden voor karmapunten of een dankjewel
 author: Lucinda Sterk
-excerpt: Zoeken naar kwetsbaarheden is als een ‘Box of Chocolats’, lacht Jelle Ursem.
+excerpt: Zoeken naar kwetsbaarheden is als een ‘Box of Chocolates’, lacht Jelle Ursem.
   “You never know what you’re gonna get.” Met de verwijzing naar de filmklassieker
   Forrest Gump illustreert Ursem zijn recentste beloning; een spontane donatie van
   1000 dollar door een organisatie waar hij een kwetsbaarheid meldde. Een redelijk
@@ -10,7 +10,7 @@ excerpt: Zoeken naar kwetsbaarheden is als een ‘Box of Chocolats’, lacht Jel
   karmapunten.
 
 ---
-Zoeken naar kwetsbaarheden is als een ‘Box of Chocolats’, lacht Jelle Ursem. “You never know what you’re gonna get.” Met de verwijzing naar de filmklassieker Forrest Gump illustreert Ursem zijn recentste beloning; een spontane donatie van 1000 dollar door een organisatie waar hij een kwetsbaarheid meldde. Een redelijk zeldzame gebeurtenis, volgens Jelle, die naar eigen zeggen ook genoegen neemt met karmapunten.
+Zoeken naar kwetsbaarheden is als een ‘Box of Chocolates’, lacht Jelle Ursem. “You never know what you’re gonna get.” Met de verwijzing naar de filmklassieker Forrest Gump illustreert Ursem zijn recentste beloning; een spontane donatie van 1000 dollar door een organisatie waar hij een kwetsbaarheid meldde. Een redelijk zeldzame gebeurtenis, volgens Jelle, die naar eigen zeggen ook genoegen neemt met karmapunten.
 
 Jelle is een ethisch hacker. Sinds dit jaar is hij actief als researcher voor het Dutch Institute for Vulnerability disclosure. In de zomer raakte hij bekend door zijn onderzoek naar kwetsbaarheden in Solarman omvormers van zonnepanelen. De zaak kreeg wereldwijd aandacht.
 
