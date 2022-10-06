@@ -16,3 +16,5 @@ fields:
 - type: textarea
   name: excerpt
   label: excerpt
+pages:
+- _posts/jelle-meldt-kwetsbaarheden-voor-karmapunten-of-een-dankjewel.md
