@@ -1,14 +1,11 @@
 ---
-title: Report DIVD-2020-00009 - Pulse Secure VPN enterprise Leak
+title: DIVD-2020-00009 - Pulse Secure VPN enterprise Leak
 date: 11 May 2021
 author: Jeroen van de Weerd
 excerpt: A list of usernames and IP addresses of more than 900 Pulse Secure VPN enterprise servers was leaked online. Security researchers forwarded this list to DIVD who notified the victims.   
----
-<header>
-    <h2>Report DIVD-2020-00009 - Pulse Secure VPN enterprise Leak</h2>
-    <span>11 May by Jeroen van de Weerd</span>
-</header>
-Case lead Frank Breedijk
+lead: Frank Breedijk
+case: DIVD-2020-00009
+--- 
 
 On August 4, 2020, a list of usernames and IP addresses of more than 900 Pulse Secure VPN enterprise servers was leaked online. Security researchers forwarded this list to DIVD to notify the victims.
 

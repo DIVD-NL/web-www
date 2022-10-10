@@ -3,12 +3,9 @@ title: Report DIVD-2020-00010 - wpDiscuz Plugin Remote Code
 date: 12 May 2021
 author: Jeroen van de Weerd
 excerpt: DIVD researchers identified vulnerable wpDiscuz installations in the Netherlands and notified the system administrators.
+case: DIVD-2020-00010
+lead: Frank Breedijk
 ---
-<header>
-    <h2>Report DIVD-2020-00010 - wpDiscuz Plugin Remote Code</h2>
-    <span>12 May by Jeroen van de Weerd</span>
-</header>
-Case lead Frank Breedijk
 
 On June 19, 2020, Wordfence's Threat Intelligence team alerted the authors of wpDiscuz on a critical vulnerability [CVE-2020-24186](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-24186). wpDiscuz is an interactive comment plugin for WordPress. This responsive comment system offers a real-time discussion function for visitors to post, share, and vote on comments. wpDiscuz has 90,000+ active installations.
 

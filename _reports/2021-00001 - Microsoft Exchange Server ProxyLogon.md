@@ -1,15 +1,16 @@
 ---
-title: Report DIVD-2021-00001– Microsoft Exchange Server ProxyLogon
+title: Report DIVD-2021-00001 – Microsoft Exchange Server ProxyLogon
 date: August 26, 2021
 author: Gerard Janssen
 excerpt: In the beginning of 2021 various groups have been breaking into Microsoft Exchange servers using various zero-days, DIVD scanned for unpatched versions and warned more than 40,000 organizations.
+lead: Frank Breedijk  
+#layout: report
+researchers: 
+- Matthijs Koot
+- Victor Gevers
+- Lennaert Oudshoorn
+case: DIVD-2021-00001   
 ---
-<header>
-    <h2>Report DIVD-2021-00001– Microsoft Exchange Server ProxyLogon</h2>
-    <span>August 26, 2021 by Gerard Janssen</span>
-</header>
-Case lead Frank Breedijk  
-Researchers: Matthijs Koot, Victor Gevers, Lennaert Oudshoorn
 
 At the beginning of 2021, thousands of organizations were affected by vulnerabilities in Windows Exchange Server. Various groups have been breaking into Microsoft Exchange servers using various zero-days, unknown security holes.
 

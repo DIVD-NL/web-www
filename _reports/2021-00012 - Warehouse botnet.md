@@ -1,18 +1,15 @@
 ---
 title: Report DIVD-2021-00012-Warehouse botnet
+case: DIVD-2021-00012
 date: 2 November, 2021
 author: Chris van 't Hof
 excerpt: researcher Tom Wolters found a database with leaked credentials and together with DIVD he informed victims 
+layout: report
+lead: Frank Breedijk
+researchers: 
+- Tom Wolters
+- Lennaert Oudshoorn
 ---
-<header>
-    <h2>Report DIVD 2021 00012 Warehouse botnet</h2>
-    <span>2 november by Chris van 't Hof</span>
-</header>
-Case Lead: Frank Breedijk
-
-Researchers: Tom Wolters and Lennaert Oudshoorn
-
-
 On 20 May 2021 security researcher Tom Wolters was scanning the internet for open databases and found one which contained 2,5 million username/password combinations. Normally he would warn the owner, but this database appeared to be fed by a botnet, which got the credentials from malware infected browsers. He therefore contacted the hosting provider on 24 May, who got the database offline on the 26th. And he notified the Dutch police as well on the 25th. Neither the police nor the hoster was willing to inform the victims, so he decided to do it himself.
 
 Analyzing the data further, Tom saw columns which mentioned the counties of the owner of the credentials, type of browser they were ‘harvested’ from and the url the credentials were associated with. The word  ‘warehouse_’ was mentioned in most column names, so Tom dubbed the dataset ‘Warehouse Botnet’.

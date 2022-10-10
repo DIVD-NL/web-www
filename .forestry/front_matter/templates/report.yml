@@ -9,7 +9,10 @@ fields:
 - type: text
   name: title
   label: title
-  description: Format:<br>REPORT - DIVD-20xx-xxxxx - Title
+  description: Just a short tile, the words 'Report DIVD-xxxx-xxxxx -' will be added autoatically
+- type: text
+  name: case
+  label: Case
 - name: date
   type: datetime
   label: Date
@@ -34,6 +37,3 @@ fields:
 - type: text
   name: excerpt
   label: excerpt
-pages:
-- reports/divd-00006.md
-- reports/report-divd-2022-00004-post-log4j.md
