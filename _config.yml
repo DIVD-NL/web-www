@@ -35,7 +35,6 @@ collections:
     output: true
   reports:
     output: true
-    layout: report
   cases:
     output: false
   cves:
