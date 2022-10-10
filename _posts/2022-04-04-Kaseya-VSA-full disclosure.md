@@ -19,4 +19,4 @@ The details released in the full disclosure indicate that the ransomware attack 
 
 A peek behind the scenes
 ------------------------
-When the Kaseya VSA crisis happened, [Gerard Janssen](/team/Gerard%20Janssen/), was writing his book [Hackers](https://www.thomasrap.nl/boek/hackers/) and he wrote an entire chapter on this case of which a [translation is available as background report on this site](/reports/2021-00002-Kaseya%20VSA%20behind%20the%20scenes/).
+When the Kaseya VSA crisis happened, [Gerard Janssen](/team/Gerard%20Janssen/), was writing his book [Hackers](https://www.thomasrap.nl/boek/hackers/) and he wrote an entire chapter on this case of which a [translation is available as background report on this site](/reports/2021-00002%20-%20Kaseya%20VSA%20behind%20the%20scenes/).
