@@ -1,33 +1,57 @@
 ---
 layout: default
 ---
+{%- assign team = site.team | map: "name" -%}
 <header>
-    <h2>{{ page.title }}</h2>
-    <span>{{ page.date }} by <a href='/team/{{ page.author | uri_escape }}'>{{ page.author }}</a></span>
+    <h2>
+    	{% unless page.title contains 'Report'  %}Report{% endunless %}
+    	{% unless page.title contains page.case %}{{ page.case }} - {% endunless %}
+    	{{ page.title }}
+    </h2>
+    <span>Written on {{ page.date | date: "%d %b %Y" }} by <a href='/team/{{ page.author | uri_escape }}'>{{ page.author }}</a></span>
 </header>
 
 <p>
-	Case lead: <a href='/team/{{ page.lead | uri_escape }}/'>{{ page.lead }}</a><br>
-	CSIRT:
-	{% assign first = true %} 
-	{% for c in page.csirt %}
-		{% if first %}
-			{% assign first = false %}
-		{% else %}
-			,
-		{% endif %}
-		<a href='/team/{{ c | uri_escape }}/'>{{ c }}</a>
-	{% endfor %}<br>
-	Researchers: 
-	{% assign first = true %} 
-	{% for c in page.researchers %}
-		{% if first %}
-			{% assign first = false %}
-		{% else %}
-			,
-		{% endif %}
-		<a href='/team/{{ c | uri_escape }}/'>{{ c }}</a>
-	{% endfor %}
+	Case lead: 
+	{% if team contains page.lead %}
+		<a href='/team/{{ page.lead | uri_escape }}/'>{{ page.lead }}</a>
+	{% else %}
+		{{ page.lead }}
+	{% endif %}
+	<br>
+	{% if page.csirt.size > 0 %}
+		CSIRT:
+		{% assign first = true %} 
+		{% for c in page.csirt %}
+			{% if first %}
+				{% assign first = false %}
+			{% else %}
+				,
+			{% endif %}
+			{% if team contains c %}
+				<a href='/team/{{ c | uri_escape }}/'>{{ c }}</a>
+			{% else %}
+				{{ c }}
+			{% endif %}
+		{% endfor %}<br>
+	{% endif %}
+	{% if page.researchers.size > 0 %}
+		Researchers: 
+		{% assign first = true %} 
+		{% for c in page.researchers %}
+			{% if first %}
+				{% assign first = false %}
+			{% else %}
+				,
+			{% endif %}
+			{% if team contains c %}
+				<a href='/team/{{ c | uri_escape }}/'>{{ c }}</a>
+			{% else %}
+				{{ c }}
+			{% endif %}			
+		{% endfor %}<br>
+	{% endif %}
+	Case file: <a href='https://csirt.divd.nl/{{ page.case }}/'>{{ page.case }}</a>
 </p>
 
 {{ content }}

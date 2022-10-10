@@ -3,16 +3,13 @@ title: Report DIVD-2021-00010-vCenter Server Preauth RCE
 date: February 19, 2022
 author: Gerard Janssen
 excerpt: On 25 May 2021, VMware published an advisory – a recommendation – to install updates for the vSphere Web Client. 
-
+layout: report
+case: DIVD-2021-00010
+lead: Victor Gevers
+researchers: 
+- Lennaert Oudshoorn
+- Hidde Smit
 ---
-
-<header>
-    <h2>Report DIVD-2021-00010– vCenter Server Preauth RCE</h2>
-    <span>February 19th, 2022 by Gerard Janssen</span>
-</header>
-Case Lead: Victor Gevers<br>
-Researchers: Lennaert Oudshoorn and Hidde Smit
-
 VMware, Inc. is an American cloud computing and virtualization technology company with headquarters in California. vSphere Web Client is an interface that administrators use to access VMware hosts.
 Researchers found a vulnerability in versions  7.0, 6.7, 6.5, 4.x, 3.x of vSphere Web Client, due to lack of input validation in the Virtual SAN Health Check plug-in, which is enabled by default in vCenter Server (CVE-2021-21985)
 

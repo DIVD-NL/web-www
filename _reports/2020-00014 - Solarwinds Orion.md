@@ -1,15 +1,12 @@
 ---
-title: Report DIVD-2020-00014 - Solarwinds Orion 
+title: Solarwinds Orion 
 date: 28 January, 2022
 author: Gerard Janssen
 excerpt: the DIVD scanned for vulnerable Solarwind Orion systems.
+lead: Barry van Kampen
+researchers: Matthijs Koot
+case: DIVD-2020-00014
 ---
-<header>
-    <h2>REPORT DIVD-2020-00014 - SOLARWINDS ORION</h2>
-    <span>28 January 2022 by Gerard Janssen</span>
-</header>
-Case lead: Barry van Kampen\
-Researcher: Matthijs Koot
 
 
 On December 8, 2020, FireEye announced that the company had fallen victim to a hack. FireEye is a privately held cybersecurity company headquartered in Milpitas, California. The company provides hardware, software, and services to investigate cybersecurity attacks, protect against malicious software, and analyze IT security risks. 

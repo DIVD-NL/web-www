@@ -33,6 +33,9 @@ plugins:
 collections:
   team:
     output: true
+  reports:
+    output: true
+    layout: report
   cases:
     output: false
   cves:
@@ -52,6 +55,13 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       layout: "default"    
+  -
+    scope:
+      path: ""
+      type: "reports" # a collection in your site, in plural form
+    values:
+      layout: "report"
+
 
 exclude:
   - README.md

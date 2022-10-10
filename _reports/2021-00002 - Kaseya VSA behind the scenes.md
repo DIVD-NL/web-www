@@ -2,15 +2,14 @@
 title: Report DIVD-2021-00002 - KASEYA VSA, behind the scenes
 date: April 4, 2022
 author: Gerard Janssen
-excerpt:
+case: DIVD-2021-00002
+lead: Frank Breedijk
+researchers: 
+- Wietse Boonstra
+- Victor Gevers
+- Joost Hendricksen
+- Lennaert Oudshoorn
 ---
-<header>
-    <h2>{{ page.title }}</h2>
-    <span>{{ page.date }}</span>
-</header>
-Case Lead: Frank Breedijk
-
-Researchers: Wietse Boonstra, Victor Gevers, Joost Hendricksen, and Lennaert Oudshoorn
 
 In April 2021 Dutch hackers found a number of vulnerabilities in software used by Kaseya, a business that makes tools for system managers working remotely. An enormous number of companies could be attacked through this vulnerability, from banks to transport companies and shop chains. The problem was nearly solved when Russian hackers also received wind of it. The result was a race between Dutch hackers and Russian criminals.
 

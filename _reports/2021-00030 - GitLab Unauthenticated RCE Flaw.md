@@ -1,17 +1,17 @@
 ---
 title: Report DIVD-2021-00030 - GitLab Unauthenticated RCE Flaw
+case: DIVD-2021-00030
 date: November 19, 2021
 author: Jeroen van de Weerd
 excerpt: We have received multiple lists of GitLab servers running a vulnerable version of GitLab from security researchers at Censys.io. An issue has been discovered in GitLab CE/EE. we have notified their administrators.
+layout: report
+lead: Victor Gevers
+researchers: 
+- Frank Breedijk
+- Victor Gevers
+- Lennaert Oudshoorn
 ---
-<header>
-    <h2>Report DIVD-2021-00030 - GitLab Unauthenticated RCE Flaw</h2>
-    <span>November 19, by Jeroen van de Weerd</span>
-</header><BR>
-Case lead: Victor Gevers<BR>
-Researchers: Frank Breedijk, Victor Gevers, Lennaert Oudshoorn
-
-<BR>November 7, Censys wrote a [blog](https://censys.io/blog/cve-2021-22205-it-was-a-gitlab-smash/) about a vulnerability in GitLab enterprise and community edition. A researcher named "vakzz" (William Bowling) found this vulnerability on May 7, 2021, and reported it via a bounty program.
+November 7, Censys wrote a [blog](https://censys.io/blog/cve-2021-22205-it-was-a-gitlab-smash/) about a vulnerability in GitLab enterprise and community edition. A researcher named "vakzz" (William Bowling) found this vulnerability on May 7, 2021, and reported it via a bounty program.
 It appeared that the application was not correctly checking uploaded images. Engineers at GitLab fixed the vulnerability almost immediately.
 However, a few months later, a report came out on Twitter that a botnet of thousands of compromised GitLab servers was performing DDoS attacks.
 

@@ -1,16 +1,15 @@
 ---
 title: Report DIVD-2021-00005-Pulse Secure Preauth RCE
+case: DIVD-2021-00005
 date: 23 November, 2021
 author: Gerard Janssen
 excerpt: Pulse Secure published an advisory in response to recently discovered critical vulnerabilities in the (VPN) product Pulse Connect Secure (PCS), version 9.0R3 and higher
+layout: report
+lead: Matthijs Koot
+researchers: 
+- Lennaert Oudshoorn
+- Victor Gevers
 ---
-<header>
-    <h2>Report DIVD-2021-00005– Pulse Secure Preauth RCE</h2>
-    <span>August 25th, 2021 by Gerard Janssen</span>
-</header>
-Case Lead: Matthijs Koot
-
-Researchers: Lennaert Oudshoorn and Victor Gevers
 
 Pulse Secure VPN is the market leader in online security solutions for enterprises. With Pulse Connect Secure (PCS), enterprises ‘can enable Zero Trust secure access to hybrid IT resources for an increasingly mobile workforce.’ Pulse VPN is widely used at universities, hospitals, energy companies, and banks. The company behind this software is Pulse Secure LLC, located in San Jose, California. (December 2020 Pulse Secure was acquired by the company Ivanti)
 
@@ -36,4 +35,4 @@ Since April 21, DIVD has been investigating all the Netherlands-linked Pulse Con
 | 15-07-2021 | DIVD shares data about the last vulnerable systems with a Pulse software reseller in the Netherlands, hoping that they can still reach some stragglers. |
 | 01-08-2021 | After four notification attempts through different channels, the case is closed. |
 
-https://www.fireeye.com/blog/threat-research/2021/04/suspected-apt-actors-leverage-bypass-techniques-pulse-secure-zero-day.html
+- [FireEye blog post](https://www.fireeye.com/blog/threat-research/2021/04/suspected-apt-actors-leverage-bypass-techniques-pulse-secure-zero-day.html)

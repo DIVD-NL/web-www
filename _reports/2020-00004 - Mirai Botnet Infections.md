@@ -1,14 +1,11 @@
 ---
-title: 2020-00004-Mirai Botnet Infections
+title: Mirai Botnet Infections
 date: 25 January 2021
 author: Jeroen van de Weerd
 excerpt: On 20-01-2020, DIVD CSIRT received a list of IP addresses, usernames and passwords belonging to systems that may have been part of the Mirai botnet. We informed the affected users. After receiving no response, no further action was taken. 
+lead: Sander Spierenburg
+case: DIVD-2020-00004
 ---
-<header>
-    <h2>Report DIVD-2020-00004 - List of Mirai botnet victims published with credentials</h2>
-    <span>25 January by Jeroen van de Weerd</span>
-</header>
-Case Lead: Sander Spierenburg
 
 On 20-01-2020, DIVD CSIRT received a list of IP addresses, usernames and passwords belonging to systems that may have been part of the Mirai botnet. It appeared that the systems were included in the botnet between 16-10-2019 and 29-11-2019.
 
