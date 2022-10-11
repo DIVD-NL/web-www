@@ -9,7 +9,8 @@ fields:
 - type: text
   name: title
   label: title
-  description: Just a short tile, the words 'Report DIVD-xxxx-xxxxx -' will be added autoatically
+  description: Just a short tile, the words 'Report DIVD-xxxx-xxxxx -' will be added
+    autoatically
 - type: text
   name: case
   label: Case
@@ -37,3 +38,5 @@ fields:
 - type: text
   name: excerpt
   label: excerpt
+pages:
+- _reports/n-able.md
