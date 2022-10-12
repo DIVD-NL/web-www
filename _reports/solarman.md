@@ -7,7 +7,7 @@ author: Gerard Janssen
 lead: Frank Breedijk
 csirt: []
 researchers:
-- Célistine Breedijk
+- Célistine Oosting
 - Jelle Ursem
 excerpt: DIVD exposes vulnerabilities in solar panels and inverters.
 published: false
@@ -28,6 +28,8 @@ But still, it is unnerving that a Chinese company has control of this kind of po
 ‘Everyone understands that these super admin accounts also exist for Googles Nest or Tesla,’ said Frank Breedijk crisis manager of DIVD, who looked with Ursem into Solarman's super admin account, ‘but if you literally look in such an account, that realization becomes deeper.’
 
 The Solarman case shows that as more and more people build Photovoltaic systems, it is important to understand who is in control of those systems and to keep that power within bounds.
+
+## Timeline
 
 | --- | --- |
 | 05 Aug 2019 | Password(s) committed to GitHub repository |
@@ -56,6 +58,8 @@ The Solarman case shows that as more and more people build Photovoltaic systems,
 | 09 Aug 2022-09 Sep 2022 | Waiting for the vendor to respond |
 | 02 Sep 2022 | Dutch ministers Yesilgöz-Zegeriu and Jetten answer the questions asked by representatives Queeny Rajkowski and Silvio Erkens |
 | 09 Sep 2022 | To date DIVD has not received a response from Solarman |
+
+## Links
 
 [https://www.ftm.nl/artikelen/hack-chinese-zonnepanelen-bedreiging-stroomnet](https://www.ftm.nl/artikelen/hack-chinese-zonnepanelen-bedreiging-stroomnet "https://www.ftm.nl/artikelen/hack-chinese-zonnepanelen-bedreiging-stroomnet").
 
