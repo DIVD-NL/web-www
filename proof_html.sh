@@ -31,7 +31,6 @@ echo "*** External link check ***"
 #(set +e ; htmlproofer \
 #	--allow-hash-href \
 #	--url-ignore="/www.linkedin.com/","/twitter.com/","/#menu/" _site || exit 0 )
-apt update -y
 (
 	html5validator _site/*.html _site/*/*.html _site/*/*/*.html _site/*/*/*/*.html _site/*/*/*/*.html | grep -v '/weesjes/index.html'
 ) | tee $TIDY_OUT
