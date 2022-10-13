@@ -42,4 +42,4 @@ jobs:
           remote_path: htdocs/divd-nl2
           remote_host: ${{ secrets.DEPLOY_HOST }}
           remote_user: ${{ secrets.DEPLOY_USER }}
-          remote_key: ${{ secrets.DEPLOY_KEY_CSIRT }}
+          remote_key: ${{ secrets.DEPLOY_KEY_WWW }}
