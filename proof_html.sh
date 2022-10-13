@@ -2,9 +2,6 @@
 set -e
 #set -x
 TIDY_OUT=/tmp/tidy_out.$$
-apt update -y
-apt install python3-pip libcurl4 -y
-pip3 install html5validator 
 
 CASECOUNT_HERE=$( ls _cases/*/*.md|wc -l )
 CASECOUNT_THERE=$( ls csirt.divd.nl/_cases/*/*.md|wc -l )
@@ -24,7 +21,6 @@ if [[ $CVECOUNT_HERE -le 0 || $CVECOUNT_HERE -ne $CVECOUNT_THERE ]]; then
 	echo "_cves directory is not updated, run ./update.sh"
 	exit 1
 fi
-gem install html-proofer
 echo "*** Internal link check ***"
 htmlproofer \
 	--disable_external \
@@ -35,7 +31,6 @@ echo "*** External link check ***"
 #(set +e ; htmlproofer \
 #	--allow-hash-href \
 #	--url-ignore="/www.linkedin.com/","/twitter.com/","/#menu/" _site || exit 0 )
-apt update -y
 (
 	html5validator _site/*.html _site/*/*.html _site/*/*/*.html _site/*/*/*/*.html _site/*/*/*/*.html | grep -v '/weesjes/index.html'
 ) | tee $TIDY_OUT
