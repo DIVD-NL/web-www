@@ -43,3 +43,14 @@ jobs:
           remote_host: ${{ secrets.DEPLOY_HOST }}
           remote_user: ${{ secrets.DEPLOY_USER }}
           remote_key: ${{ secrets.DEPLOY_KEY_WWW }}
+      - run: exit 1
+      - name: Slack notify failure
+        if: failure()
+        uses: voxmedia/github-action-slack-notify-build@v1
+        env:
+          SLACK_BOT_TOKEN: ${{ secrets.SLACKBOT_TOKEN }}
+        with: 
+          channel: websites
+          status: FAILED
+          color: danger
+
