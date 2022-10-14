@@ -48,7 +48,7 @@ jobs:
         if: failure()
         uses: voxmedia/github-action-slack-notify-build@v1
         env:
-          SLACK_BOT_TOKEN: ${{ secrets.SLACKBOT_TOKEN }}
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
         with: 
           channel: website
           status: FAILED
