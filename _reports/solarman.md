@@ -31,3 +31,35 @@ But still, it is unnerving that a Chinese company has control of this kind of po
 ‘Everyone understands that these super admin accounts also exist for Googles Nest or Tesla,’ said Frank Breedijk, Crisis Manager of DIVD, who looked with Ursem into Solarman's super admin account, ‘but if you look in such an account, that realization becomes deeper.’
 
 The Solarman case shows that as more and more people build Photovoltaic systems, it is important to understand who is in control of those systems and to keep that power within bounds.
+
+| --- | --- |
+| 05 Aug 2019 | Password(s) committed to GitHub repository |
+| 05 Aug 2019-24 Apr 2021 | Password exposed and service vulnerable - 1st time |
+| 16 Apr 2021 | Célistine Oosting, tweets that Omnik converter is now uploading data to China |
+| 17 Apr 2021 | Jelle finds working password for SolarMan Super Admin account in Github repo |
+| 17 Apr 2021 | Vendor informed |
+| 24 Apr 2021 | Password changed |
+| 03 Feb 2022 | Jelle discovers that password was changed back to password in GitHub repo |
+| 03 Feb 2022-02 Jul 2022 | Password exposed and service vulnerable - 1st time |
+| 06 Feb 2022 | Case opened |
+| 06 Feb 2022 | Vendor notified |
+| 07 Feb 2022 | DIVD involves the Dutch National Cyber Security Center (NCSC) |
+| 20 Feb 2022 | NCSC notifies vendor and Cert-CN |
+| 15 Apr 2022 | NCSC notifies Cert.cn |
+| 10 May 2022 | NCSC involves the Dutch embassy in China. |
+| 09 Jun 2022 | NCSC and China Cert in contact. The case file has been given to China Cert |
+| 17 Jun 2022 | DIVD contacts our office neighbor, the Chinese consulate in The Hague. We are given an (unnamed) liaison at China Cert |
+| 26 Jun 2022 | Dutch representatives Queeny Rajkowski, Silvio Erkens have asked questions to minister Yesilgöz-Zegeriu and minister Jetten based on the publication in Follow the Money |
+| 02 Jul 2022 | Account is closed and GitHub repo was removed |
+| 02 Jul 2022 | Case closed |
+| 03 Jul 2022 | NCSC reports that the Dutch ambassador has sent a formal letter to China Cert who confirmed receipt of the data |
+| 24 Jul 2022 | Findings presented at MCH2022 |
+| 24 Jul 2022 | Vendor responded |
+| 09 Aug 2022 | DIVD asks the vendor to clarify the statements they mode based on our case. |
+| 09 Aug 2022-09 Sep 2022 | Waiting for the vendor to respond |
+| 02 Sep 2022 | Dutch ministers Yesilgöz-Zegeriu and Jetten answer the questions asked by representatives Queeny Rajkowski and Silvio Erkens |
+| 09 Sep 2022 | To date DIVD has not received a response from Solarman |
+
+[https://www.ftm.nl/artikelen/hack-chinese-zonnepanelen-bedreiging-stroomnet](https://www.ftm.nl/artikelen/hack-chinese-zonnepanelen-bedreiging-stroomnet "https://www.ftm.nl/artikelen/hack-chinese-zonnepanelen-bedreiging-stroomnet").
+
+[https://www.rtlnieuws.nl/video/uitzendingen/video/5322987/rtl-nieuws-1930-uur](https://www.rtlnieuws.nl/video/uitzendingen/video/5322987/rtl-nieuws-1930-uur "https://www.rtlnieuws.nl/video/uitzendingen/video/5322987/rtl-nieuws-1930-uur")
