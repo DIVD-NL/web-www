@@ -50,7 +50,7 @@ jobs:
         env:
           SLACK_BOT_TOKEN: ${{ secrets.SLACKBOT_TOKEN }}
         with: 
-          channel: websites
+          channel: website
           status: FAILED
           color: danger
 
