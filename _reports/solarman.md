@@ -13,7 +13,6 @@ excerpt: DIVD exposes vulnerabilities in solar panels and inverters.
 published: false
 
 ---
-
 On April 16, 2021, DIVD researcher Célistine Oosting discovered that data from her parents' Omnik-solar panel system were sent to China. Omnik is, or rather was, a German company that produces PV systems. It went bankrupt in October 2021 and was taken over by the Chinese company Solarman after which the panels started sending their data to Solarman in China. Oosting realized that the data transfer violates the General Data Protection Regulation (GDPR), which must guarantee the protection of personal data within the European Union. Célistine tweeted about this.
 
 Ethical hacker Jelle Ursem read the tweet. He did not know the company, was curious and searched Github to see if he could find repositories that mention Solarman and "password". In one of them, he stumbled upon the credentials for a backend account called ‘Super Administrator. Ursem could get access to a super admin panel. To his horror, he found that he was able to upload and download the firmware of the inverters. A bad actor with access to this admin account would not only have been able to get access to the networks of the customers but also could ‘brick’ or modify all the devices.
@@ -31,6 +30,8 @@ But still, it is unnerving that a Chinese company has control of this kind of po
 ‘Everyone understands that these super admin accounts also exist for Googles Nest or Tesla,’ said Frank Breedijk, Crisis Manager of DIVD, who looked with Ursem into Solarman's super admin account, ‘but if you look in such an account, that realization becomes deeper.’
 
 The Solarman case shows that as more and more people build Photovoltaic systems, it is important to understand who is in control of those systems and to keep that power within bounds.
+
+## Timeline
 
 | --- | --- |
 | 05 Aug 2019 | Password(s) committed to GitHub repository |
@@ -59,6 +60,8 @@ The Solarman case shows that as more and more people build Photovoltaic systems,
 | 09 Aug 2022-09 Sep 2022 | Waiting for the vendor to respond |
 | 02 Sep 2022 | Dutch ministers Yesilgöz-Zegeriu and Jetten answer the questions asked by representatives Queeny Rajkowski and Silvio Erkens |
 | 09 Sep 2022 | To date DIVD has not received a response from Solarman |
+
+## Links
 
 [https://www.ftm.nl/artikelen/hack-chinese-zonnepanelen-bedreiging-stroomnet](https://www.ftm.nl/artikelen/hack-chinese-zonnepanelen-bedreiging-stroomnet "https://www.ftm.nl/artikelen/hack-chinese-zonnepanelen-bedreiging-stroomnet").
 
