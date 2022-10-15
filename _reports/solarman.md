@@ -11,7 +11,6 @@ researchers:
 - Jelle Ursem
 excerpt: Backend ‘Super Administrator’ account for Solarman, producer of Photovoltaic-systems
   exposed.
-published: false
 
 ---
 On April 16, 2021, DIVD researcher Célistine Oosting discovered that data from her parents' Omnik-solar panel system were sent to China. Omnik is – or rather was – a German company that produces PV systems. It went bankrupt in October 2021 and was taken over by the Chinese company Solarman after which the panels started sending their data to Solarman in China. Oosting realized that the data transfer violates the General Data Protection Regulation (GDPR), which must guarantee the protection of personal data within the European Union. Célistine tweeted about this.
