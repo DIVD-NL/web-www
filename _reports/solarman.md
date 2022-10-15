@@ -9,11 +9,12 @@ csirt: []
 researchers:
 - Célistine Oosting
 - Jelle Ursem
-excerpt: DIVD exposes vulnerabilities in solar panels and inverters.
+excerpt: Backend ‘Super Administrator’ account for Solarman, producer of Photovoltaic-systems
+  exposed.
 published: false
 
 ---
-On April 16, 2021, DIVD researcher Célistine Oosting discovered that data from her parents' Omnik-solar panel system were sent to China. Omnik is, or rather was, a German company that produces PV systems. It went bankrupt in October 2021 and was taken over by the Chinese company Solarman after which the panels started sending their data to Solarman in China. Oosting realized that the data transfer violates the General Data Protection Regulation (GDPR), which must guarantee the protection of personal data within the European Union. Célistine tweeted about this.
+On April 16, 2021, DIVD researcher Célistine Oosting discovered that data from her parents' Omnik-solar panel system were sent to China. Omnik is – or rather was – a German company that produces PV systems. It went bankrupt in October 2021 and was taken over by the Chinese company Solarman after which the panels started sending their data to Solarman in China. Oosting realized that the data transfer violates the General Data Protection Regulation (GDPR), which must guarantee the protection of personal data within the European Union. Célistine tweeted about this.
 
 Ethical hacker Jelle Ursem read the tweet. He did not know the company, was curious and searched Github to see if he could find repositories that mention Solarman and "password". In one of them, he stumbled upon the credentials for a backend account called ‘Super Administrator. Ursem could get access to a super admin panel. To his horror, he found that he was able to upload and download the firmware of the inverters. A bad actor with access to this admin account would not only have been able to get access to the networks of the customers but also could ‘brick’ or modify all the devices.
 
