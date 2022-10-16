@@ -8,9 +8,12 @@ fields:
   default: report
 - type: text
   name: title
-  label: title
+  label: Title
   description: Just a short tile, the words 'Report DIVD-xxxx-xxxxx -' will be added
     autoatically
+  config:
+    required: true
+    min: 1
 - type: text
   name: case
   label: Case
@@ -23,16 +26,22 @@ fields:
   label: Date
   description: ''
   config:
-    required: false
-    date_format: 
+    required: true
+    date_format: DD-MM-YYYY
     time_format: 
     display_utc: false
+    export_format: YYYY-MM-DD
+  default: now
 - type: text
   name: author
-  label: author
+  label: Author
+  config:
+    required: true
 - type: text
   name: lead
-  label: lead
+  label: Case lead
+  config:
+    required: true
 - type: list
   name: csirt
   label: csirt
