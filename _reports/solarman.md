@@ -1,8 +1,8 @@
 ---
 layout: report
 title: Solarman
-case: 'DIVD-2022–00009 '
-date: 2022-10-12T00:00:00.000+02:00
+case: DIVD-2022–00009
+date: 2022-10-12 00:00:00 +0200
 author: Gerard Janssen
 lead: Frank Breedijk
 csirt: []
