@@ -39,7 +39,7 @@ Suppose bad actors gain access to software used to manage other computers. In th
 
 The DIVD continues to look for zerodays in RMM-software because the impact of a hack in this type of software can have enormous consequences
 
-\## Timeline
+## Timeline
 
 | Date | Description |
 
@@ -55,4 +55,4 @@ The DIVD continues to look for zerodays in RMM-software because the impact of a 
 
 | 24 September 2021 | Vendor notified DIVD about the fix. |
 
-|5 October 2022 | Vendor fixed the two remaining vulnerabilities reported by DIVD in release 2022.7 |
+| 5 October 2022 | Vendor fixed the two remaining vulnerabilities reported by DIVD in release 2022.7 |
