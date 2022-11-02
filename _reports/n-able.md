@@ -42,17 +42,10 @@ The DIVD continues to look for zerodays in RMM-software because the impact of a 
 ## Timeline
 
 | Date | Description |
-
 |:-----:|-------------|
-
 | 05 July 2021 | Four vulnerabilities discovered. |
-
 | 12 July 2021 | Vendor informed. |
-
 | 14 July 2021 | Vendor confirmed vulnerability. |
-
 | 27 August 2021 | 2021.1 HF6 released. Two vulnerabilities solved.|
-
 | 24 September 2021 | Vendor notified DIVD about the fix. |
-
 | 5 October 2022 | Vendor fixed the two remaining vulnerabilities reported by DIVD in release 2022.7 |
