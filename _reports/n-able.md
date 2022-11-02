@@ -10,7 +10,6 @@ researchers:
 - Tom Wolters
 - Hidde Smit
 excerpt: DIVD researchers identified multiple zerodays in SolarWinds N-able N-central.
-published: false
 
 ---
 5 July 2021 DIVD researchers Hidde Smit and Tom Wolters found two zeroday vulnerabilities in N-Central, N-Able-software. N-Able was formerly owned by Solarwinds, a global leader in network and systems management software. N-Central is a tool for Remote Monitoring and Management (RMM). As networks grow in complexity and scale to thousands or tens of thousands of devices, IT service providers need powerful tools to help them keep up. N-Central is such a tool.
