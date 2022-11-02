@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: news
 title: Jelle meldt kwetsbaarheden voor karmapunten of een dankjewel
 author: Lucinda Sterk
 excerpt: Zoeken naar kwetsbaarheden is als een ‘Box of Chocolates’, lacht Jelle Ursem.
