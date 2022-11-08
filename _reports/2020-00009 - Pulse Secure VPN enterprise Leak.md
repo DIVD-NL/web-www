@@ -5,6 +5,7 @@ author: Jeroen van de Weerd
 excerpt: A list of usernames and IP addresses of more than 900 Pulse Secure VPN enterprise servers was leaked online. Security researchers forwarded this list to DIVD who notified the victims.   
 lead: Frank Breedijk
 case: DIVD-2020-00009
+has_casefile : true
 --- 
 
 On August 4, 2020, a list of usernames and IP addresses of more than 900 Pulse Secure VPN enterprise servers was leaked online. Security researchers forwarded this list to DIVD to notify the victims.

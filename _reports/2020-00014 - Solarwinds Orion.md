@@ -6,6 +6,7 @@ excerpt: the DIVD scanned for vulnerable Solarwind Orion systems.
 lead: Barry van Kampen
 researchers: Matthijs Koot
 case: DIVD-2020-00014
+has_casefile : true
 ---
 
 

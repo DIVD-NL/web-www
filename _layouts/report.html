@@ -51,7 +51,9 @@ layout: default
 			{% endif %}			
 		{% endfor %}<br>
 	{% endif %}
-	Case file: <a href="https://csirt.divd.nl/{{ page.case }}/">{{ page.case }}</a>
+	{% if page.has_casefile %}
+		Case file: <a href="https://csirt.divd.nl/{{ page.case }}/">{{ page.case }}</a>
+	{% endif %}
 </p>
 
 {{ content }}

@@ -5,6 +5,7 @@ author: Chris van 't Hof
 excerpt: This is actually a non-report, but it demonstrates where we draw the boundaries on what we can and cannot do according to our code of conduct.
 layout: report
 case: DIVD-2021-00003
+has_casefile : false
 lead: n/a
 researchers: n/a
 ---

@@ -4,6 +4,7 @@ date: 1 July, 2021
 author: Joris van de Vis
 excerpt: an external researcher not tied to the DIVD informed us about leaked phishing credentials, the DIVD/DIVD CSIRT informed the victims of the phishing campaign after obtaining the information
 case: DIVD-2020-00013
+has_casefile : true
 lead: Frank Breedijk
 researchers: Bauke Gehem (external)
 ---

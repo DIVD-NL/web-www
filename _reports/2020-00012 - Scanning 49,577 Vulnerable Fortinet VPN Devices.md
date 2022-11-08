@@ -5,6 +5,7 @@ author: Jeroen van de Weerd
 excerpt: A total of 34,830 notifications were sent to companies and agencies with vulnerable Fortinet VPN devices. We received some positive responses.
 lead: Frank Breedijk
 case: DIVD-2020-00012
+has_casefile : true
 ---
 
 On November 19, 2020, a threat intelligence analyst found a list of 49,577 Fortinet VPN devices that appear to be vulnerable to [CVE-2018-13379](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-13379). This vulnerability allows an attacker, via a modified HTTP request, to retrieve system files to which they should not normally have access. By requesting the sslvpn_websession file, it is possible to steal users' login credentials. This is an older vulnerability, which has been warned about and brought to attention several times.
