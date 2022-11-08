@@ -21,6 +21,11 @@ fields:
     required: true
     min: 15
     max: 15
+- name: has_casefile
+  type: boolean
+  label: Has casefile
+  description: Toggle this to off if the case doesn't have a casefile.
+  default: true
 - name: date
   type: datetime
   label: Date
@@ -44,13 +49,13 @@ fields:
     required: true
 - type: list
   name: csirt
-  label: csirt
+  label: Csirt
 - type: list
   name: researchers
-  label: researchers
+  label: Researchers
 - type: text
   name: excerpt
-  label: excerpt
+  label: Excerpt
 pages:
 - _reports/n-able.md
 - _reports/solarman.md
