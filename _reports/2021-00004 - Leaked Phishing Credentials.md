@@ -1,6 +1,7 @@
 ---
 title: Report DIVD-2021-00004 - Leaked Phishing Credentials
 date: 7 June, 2021
+has_casefile : true
 author: Célistine Oosting
 excerpt: an external researcher not tied to the DIVD informed us about leaked phishing credentials, the DIVD/DIVD CSIRT informed the victims of the phishing campaign after obtaining the information
 case: DIVD-2021-00004

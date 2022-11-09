@@ -10,6 +10,7 @@ researchers:
 - Victor Gevers
 - Lennaert Oudshoorn
 case: DIVD-2021-00001   
+has_casefile : true
 ---
 
 At the beginning of 2021, thousands of organizations were affected by vulnerabilities in Windows Exchange Server. Various groups have been breaking into Microsoft Exchange servers using various zero-days, unknown security holes.

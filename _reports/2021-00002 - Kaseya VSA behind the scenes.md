@@ -3,6 +3,7 @@ title: Report DIVD-2021-00002 - KASEYA VSA, behind the scenes
 date: April 4, 2022
 author: Gerard Janssen
 case: DIVD-2021-00002
+has_casefile : true
 lead: Frank Breedijk
 researchers: 
 - Wietse Boonstra

@@ -6,6 +6,7 @@ excerpt: On May 5, 2020, Citrix released a security advisory for the Citrix Shar
 lead: Lennaert Oudshoorn
 researchers: Lennaert Oudshoorn
 case: DIVD-2020-00007
+has_casefile : true
 ---
 
 On May 5, 2020, Citrix released a security advisory for the Citrix ShareFile product. (https://support.citrix.com/article/CTX269106) The three vulnerabilities listed here allow an attacker to potentially compromise the storage zone controller and gain access to sensitive ShareFile documents and folders. The newly found vulnerabilities apply to Citrix ShareFile storage zone controllers that are on-premises and self-managed. The vulnerabilities have been assigned the following CVE numbers.

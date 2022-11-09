@@ -2,6 +2,7 @@
 layout: report
 title: N-able
 case: DIVD-2021-00017
+has_casefile : true
 date: 2022-11-02
 author: Gerard Janssen
 lead: Victor Gevers

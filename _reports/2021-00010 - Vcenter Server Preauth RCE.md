@@ -5,6 +5,7 @@ author: Gerard Janssen
 excerpt: On 25 May 2021, VMware published an advisory – a recommendation – to install updates for the vSphere Web Client. 
 layout: report
 case: DIVD-2021-00010
+has_casefile : true
 lead: Victor Gevers
 researchers: 
 - Lennaert Oudshoorn

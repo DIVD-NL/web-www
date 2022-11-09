@@ -4,6 +4,7 @@ date: 08 April 2021
 author: Jeroen van de Weerd
 excerpt: DIVD received a list with all the Wordpress websites in the .nl space, 313 000 sites were scanned for vulnerabilities. Two different vulnerabilities were reported on.  
 case: DIVD-2020-00008
+has_casefile : true
 lead: Frank Breedijk
 ---
 

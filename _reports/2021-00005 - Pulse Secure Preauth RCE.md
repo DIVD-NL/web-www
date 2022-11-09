@@ -1,6 +1,7 @@
 ---
 title: Report DIVD-2021-00005-Pulse Secure Preauth RCE
 case: DIVD-2021-00005
+has_casefile : true
 date: 23 November, 2021
 author: Gerard Janssen
 excerpt: Pulse Secure published an advisory in response to recently discovered critical vulnerabilities in the (VPN) product Pulse Connect Secure (PCS), version 9.0R3 and higher

@@ -4,6 +4,7 @@ date: 14 July, 2021
 author: Gerard Janssen
 excerpt: A vulnerability was found in Apache Tomcat, nicknamed Ghostcat. The DIVD scanned the web for vulnerable systems and shared this information through non-public CERT channels.
 case: DIVD-2020-00005
+has_casefile : true
 lead: Frank Breedijk
 ---
 February 20, 2020, the China National Vulnerability Database published a security advisory for a vulnerability in Apache Tomcat (CNVD-2020-10487/CVE-2020-1938). The vulnerability was called Ghostcat, because it has remained invisible for over thirteen years. It can be exploited to read and write files.

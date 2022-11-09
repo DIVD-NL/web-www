@@ -4,6 +4,7 @@ date: 12 May 2021
 author: Jeroen van de Weerd
 excerpt: DIVD researchers identified vulnerable wpDiscuz installations in the Netherlands and notified the system administrators.
 case: DIVD-2020-00010
+has_casefile : true
 lead: Frank Breedijk
 ---
 
