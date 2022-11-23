@@ -23,14 +23,14 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: '3.7'
+      - name: install prerequisites
+        run:  pip3 install html5validator requests && gem install --no-document html-proofer
       - name: Update external content
         run:  ./update.sh
       - name: Clean up stubs
         run:  rm -rf _cases/3000 _cves/CVE-3000-* csirt.divd.nl/_cases/3000 csirt.divd.nl/_cves/CVE-3000-*
       - name: Build
         run:  bundle exec jekyll build  --future 2>&1 | tee jekyll-build.log
-      - name: install prerequisites
-        run:  pip3 install html5validator && gem install --no-document html-proofer
       - name: Test HTML code
         run:  ./proof_html.sh
       - name: rsync deploy

@@ -5,6 +5,7 @@ docker run --volume="$PWD:/root/project:delegated" --entrypoint /bin/bash -ti mr
 -c "
 	set -e
 	cd /root/project/;
+	pip install requests
 	bundle install
 	git config --global --add safe.directory /root/project/csirt.divd.nl
 	./update.sh;

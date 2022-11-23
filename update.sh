@@ -41,3 +41,11 @@ echo "Updating plugins"
 	rm casesPlugin.rb cve_json.rb
 	cp ../csirt.divd.nl/_plugins/*.rb .
 )
+echo "Updating teams and people"
+(
+	cd _teams
+	rm -rf *.md
+	cd ../_people
+	rm -rf *.md
+)
+./update_org.py --member-path _people --team-path _teams

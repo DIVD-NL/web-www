@@ -31,16 +31,22 @@ if __name__ == '__main__':
 	r = requests.post(url, data=json.dumps(payload), headers=headers)
 	#r = requests.post(url, data=payload, headers=headers)
 	
+	print("updating teams",end="")
 	for team in r.json()["data"]["teamsByCompany"] :
+		#print(json.dumps(team))
 		with open("{}/{}.md".format(args.team_path,team["slug"]), "w") as tfh :
 			tfh.write("---\n")
+			tfh.write("layout: team\n")
 			tfh.write("slug: {}\n".format(team["slug"]))
 			tfh.write("name: {}\n".format(team["name"]))
+			tfh.write("title: {}\n".format(team["name"]))
 			tfh.write("size: {}\n".format(team["memberCount"]))
 			tfh.write("members:\n")
 			for member in team["members"] :
 				tfh.write("  - {}\n".format(member["id"]))
 			tfh.write("---\n")
+		print(".",end="")
+	print("done")
 
 	payload = {
     	"operationName": "Company",
@@ -51,19 +57,20 @@ if __name__ == '__main__':
 		}
 	r = requests.post(url, data=json.dumps(payload), headers=headers)
 	
+	print("Updating people",end="")
 	for node in r.json()["data"]["company"]["nodes"] :
-		print(json.dumps(node))
 		if node["leafMember"]["slug"] :
 			with open("{}/{}.md".format(args.member_path, node["leafMember"]["fullName"]), "w") as mfh :
 				mfh.write("---\n")
-				mfh.write("person_id: {}\n".format(node["leafMember"]["id"]))
-				mfh.write("name: \"{}\"\n".format(node["leafMember"]["fullName"]))
-				mfh.write("role: \"{}\"\n".format(node["leafMember"]["role"]))
-				mfh.write("manager: {}\n".format(node["leafMember"]["parentPositionId"]))
+				mfh.write("layout: person\n")
+				mfh.write("person_id: {}\n".format(node["leafMember"]["id"] or ""))
+				mfh.write("name: \"{}\"\n".format(node["leafMember"]["fullName"] or ""))
+				mfh.write("role: \"{}\"\n".format(node["leafMember"]["role"] or "")) 
+				mfh.write("manager: {}\n".format(node["leafMember"]["parentPositionId"] or ""))
 				mfh.write("socials :\n")
 				for social in node["leafMember"]["social"] :
 					if not social.startswith("__"):
-						mfh.write("  - {}: {}\n".format(social, node["leafMember"]["social"][social]))
+						mfh.write("  {}: {}\n".format(social, node["leafMember"]["social"][social] or ""))
 				if "companyStartDate" in node["leafMember"] and node["leafMember"]["companyStartDate"] :
 					mfh.write("start: {:04d}-{:02d}-{:02d}\n".format(
 						node["leafMember"]["companyStartDate"]["year"],
@@ -71,4 +78,6 @@ if __name__ == '__main__':
 						node["leafMember"]["companyStartDate"]["day"])
 					)
 				mfh.write("---\n")
-				mfh.write("{}\n".format(node["leafMember"]["description"]))
+				mfh.write("{}\n".format(node["leafMember"]["description"] or ""))
+		print(".",end="")
+	print("done")

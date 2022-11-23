@@ -39,6 +39,7 @@ docker run \
 			EXEC=\"bundle exec\"
 		fi
 
+		pip install requests
 		git config --global --add safe.directory /root/project/csirt.divd.nl
 		while [ 1 ] ; do
 			./update.sh
