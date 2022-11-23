@@ -28,7 +28,7 @@ layout: default
 <pre>
 	{% assign managers = "" | split: "," %}
 	{% for p in the_team %}
-		{% if p.manager != "None" %}
+		{% if p.manager %}
 			{% assign mgr = the_team | where: "person_id", p.manager | first %}
 			{% unless mgr %}
 				{% assign mgr = site.people | where: "person_id", p.manager | first %}
@@ -46,11 +46,11 @@ flowchart LR
     {% endfor %}
 	subgraph {{ page.slug }}[{{page.name | replace: "[", "" | replace: "]", "" }}]
         {% for member in the_team %}
-            p{{ member.person_id }}[{{ member.name }}\n{{ member.role}}]
+            p{{ member.person_id }}[{{ member.name }}\n{{ member.role | replace: "|", "" }}]
         {% endfor %}                    
 	end
     {% for member in the_team %}
-        {% if member.manager != "None" %}
+        {% if member.manager %}
         	p{{ member.manager }} --- p{{ member.person_id }}
         {% endif %}
     {% endfor %}
