@@ -33,6 +33,10 @@ plugins:
 collections:
   team:
     output: true
+  people:
+    output: true
+  teams:
+    output: false
   reports:
     output: true
   cases:
