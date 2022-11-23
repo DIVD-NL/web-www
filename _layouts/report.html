@@ -8,13 +8,13 @@ layout: default
     	{% unless page.title contains page.case %}{{ page.case }} - {% endunless %}
     	{{ page.title }}
     </h2>
-    <span>Written on {{ page.date | date: "%d %b %Y" }} by <a href="/team/{{ page.author | uri_escape }}">{{ page.author }}</a></span>
+    <span>Written on {{ page.date | date: "%d %b %Y" }} by <a href="/people/{{ page.author | uri_escape }}">{{ page.author }}</a></span>
 </header>
 
 <p>
 	Case lead: 
 	{% if team contains page.lead %}
-		<a href="/team/{{ page.lead | uri_escape }}/">{{ page.lead }}</a>
+		<a href="/people/{{ page.lead | uri_escape }}/">{{ page.lead }}</a>
 	{% else %}
 		{{ page.lead }}
 	{% endif %}
@@ -29,7 +29,7 @@ layout: default
 				,
 			{% endif %}
 			{% if team contains c %}
-				<a href="/team/{{ c | uri_escape }}/">{{ c }}</a>
+				<a href="/people/{{ c | uri_escape }}/">{{ c }}</a>
 			{% else %}
 				{{ c }}
 			{% endif %}
@@ -45,7 +45,7 @@ layout: default
 				,
 			{% endif %}
 			{% if team contains c %}
-				<a href="/team/{{ c | uri_escape }}/">{{ c }}</a>
+				<a href="/people/{{ c | uri_escape }}/">{{ c }}</a>
 			{% else %}
 				{{ c }}
 			{% endif %}			

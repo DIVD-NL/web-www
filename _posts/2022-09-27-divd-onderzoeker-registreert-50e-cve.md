@@ -4,7 +4,7 @@ layout: news
 author: Lucinda Sterk
 ---
 
-Hij is leergierig, bescheiden en ontzettend gedreven om het internet veiliger te maken. DIVD-onderzoeker [Asif Nawaz Minhas](/team/Asif%20Nawaz%20Minhas/) speurt dag en nacht naar kwetsbaarheden. Onlangs registreerde hij zijn vijftigste CVE (Common Vulnerabilities and exposures). DIVD is sinds februari 2022 een CNA (CVE Numbering Authority).
+Hij is leergierig, bescheiden en ontzettend gedreven om het internet veiliger te maken. DIVD-onderzoeker [Asif Nawaz Minhas](/people/Asif%20Nawaz%20Minhas/) speurt dag en nacht naar kwetsbaarheden. Onlangs registreerde hij zijn vijftigste CVE (Common Vulnerabilities and exposures). DIVD is sinds februari 2022 een CNA (CVE Numbering Authority).
 
 Asif reageert trots maar ook luchtig op zijn felicitaties voor de 50e CVE. “Ik heb inmiddels al de 51e binnen”, lacht hij. Een CNA voorziet een kwetsbaarheid van een uniek nummer, de zogenoemde CVE. Deze codering maakt het voor onderzoekers wereldwijd makkelijker om informatie uit te wisselen, kwetsbaarheden te volgen en beveiligingsproducten te beoordelen. Een CVE-nummer bestaat uit de letters CVE, het jaartal en vijf cijfers.
 

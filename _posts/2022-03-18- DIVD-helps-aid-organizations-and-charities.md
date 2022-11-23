@@ -12,7 +12,7 @@ The reason for this action is the November 2021 hack on the International Red Cr
 
 DIVD calls on the aid organizations that have received an e-mail from them to patch the systems as quickly as possible. The e-mail clearly states which vulnerability is involved. If the organizations encounter problems with patching, they can always contact DIVD.
 
-DIVD researcher [Tom Wolters](https://www.divd.nl/team/Tom%20Wolters/) is in charge of this [case](https://csirt.divd.nl/cases/DIVD-2022-00012/) from DIVD: “In these times it is important that we strengthen our systems worldwide and are less vulnerable. Charities and foundations work hard to make the world a better place, let's help them where we can; detect vulnerabilities and close gaps.”
+DIVD researcher [Tom Wolters](https://www.divd.nl/people/Tom%20Wolters/) is in charge of this [case](https://csirt.divd.nl/cases/DIVD-2022-00012/) from DIVD: “In these times it is important that we strengthen our systems worldwide and are less vulnerable. Charities and foundations work hard to make the world a better place, let's help them where we can; detect vulnerabilities and close gaps.”
 
 The researchers will continue to scan the environments. Aid organizations can therefore expect another e-mail with additional information.
 

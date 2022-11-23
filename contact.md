@@ -33,8 +33,8 @@ The reason why someone behaves in this way is also irrelevant in determining whe
 That is one of the reasons why DIVD has appointed two confidential advisors. A central point of contact to ensure that the way in which we interact within the institute remains professional, fun, and safe. Within the institute, the confidential counselors are the point of contact for anyone who is dealing with transgressive or sexually intimidating behavior and who wants to talk to someone about it.
 
 The confidential advisors at DIVD are:
-* [Jan Los](/team/Jan%20Los/)
-* [Nikola Diete](/team/Nikola%20Diete/)
+* [Jan Los](/people/Jan%20Los/)
+* [Nikola Diete](/people/Nikola%20Diete/)
 
 Both can be reached via [vertrouwenspersoon@divd.nl](mailto:vertrouwenspersoon@divd.nl)
 

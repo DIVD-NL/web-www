@@ -19,7 +19,7 @@ layout: default
 
 <ul>
 	{% for p in the_team %}
-		<li><a href="/people/{{ p.name |url_encode|replace: '+', '%20' }}/">{{ p.name }}{% if p.role %} - {{ p.role }}{% endif %}</a></li>
+		<li><a href="/people/{{ p.name | uri_encode }}/">{{ p.name }}{% if p.role %} - {{ p.role }}{% endif %}</a></li>
 	{% endfor %}
 </ul>
 
