@@ -9,7 +9,6 @@ lead: Victor Pasman
 csirt: []
 researchers: []
 excerpt: Backdoor found in WinRS and Exchange Servers
-published: false
 
 ---
 On May 10th the Security Operation Center of Dutch cybersecurity company Eye Security got an alert about malicious activity on an Exchange server of one of their customers. Researchers of Eye Security found a backdoor that was probably installed months earlier after an initial ProxyLogon or ProxyShell compromise. The backdoor uses the WinRS service on the server to give a malicious actor with credentials remote access to the server.
