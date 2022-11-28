@@ -12,7 +12,6 @@ researchers:
 - Victor Gevers
 - Mick Beer
 excerpt: Several vulnerabilities found in Gitlab
-published: false
 
 ---
 On November 18, 2021, a researcher at security company Rapid7 discovered a vulnerability (CVE-2021-4191) in Gitlab, that gave an unauthorized user the opportunity to collect the personal information of other users. GitLab is open-source DevOps software. The vulnerability could give a remote, unauthenticated attacker the possibility to collect registered GitLab usernames, names, and email addresses. Malicious actors could use this information to conduct brute-force attacks, including password guessing, password spraying - trying usernames with common passwords – and credential stuffing - algorithmically trying usernames and passwords on different sites. The vulnerability affected GitLab versions since 13.0.
