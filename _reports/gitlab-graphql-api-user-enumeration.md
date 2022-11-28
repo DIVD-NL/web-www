@@ -42,4 +42,4 @@ After a final scan on Augus 31t there were still 5447 vulnerable systems left, b
 
 [https://thehackernews.com/2022/03/new-security-vulnerability-affects.html?m=1](https://thehackernews.com/2022/03/new-security-vulnerability-affects.html?m=1 "https://thehackernews.com/2022/03/new-security-vulnerability-affects.html?m=1")
 
-![](https://lh5.googleusercontent.com/nQIZzxcS2njGv7stNib2oquz4JpJswrH--DY5BkxPUjlB4oQJTRLT6oceqyxJaZAWpGI8GhlwtjHw9N9FiamAW9sM-pA5SiPf_M-VVysDSRahBX3ARmyQVvuxKqph8eGOso6BZNcPFhDE5Yrze3ajQqHlL_64i7ac6Mkto95n9q3B3YQFLEpzbytZvCllC03 =15x15)[New Security Vulnerability Affects Thousands of Self-Managed GitLab Instances](https://thehackernews.com/2022/03/new-security-vulnerability-affects.html?m=1)
+[https://about.gitlab.com/releases/2022/02/25/critical-security-release-gitlab-14-8-2-released/#unauthenticated-user-enumeration-on-graphql-api](https://about.gitlab.com/releases/2022/02/25/critical-security-release-gitlab-14-8-2-released/#unauthenticated-user-enumeration-on-graphql-api "https://about.gitlab.com/releases/2022/02/25/critical-security-release-gitlab-14-8-2-released/#unauthenticated-user-enumeration-on-graphql-api")
