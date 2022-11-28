@@ -29,6 +29,7 @@ After a final scan on August 31st, there were still 5447 vulnerable systems left
 
 | --- | --- |
 | Date | Description |
+| 18 Nov 2022 | Vulnerability CVE-2021-4191) discovered. |
 | 25 Feb 2022 | GitLab reported the vulnerability. |
 | 04 Mar 2022 | DIVD starts OSINT research. |
 | 04 Mar 2022-31 Aug 2022 | DIVD scans the internet for vulnerable GitLab instances. |
