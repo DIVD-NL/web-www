@@ -23,7 +23,7 @@ Disabling public profiles would also prevent unauthenticated information gatheri
 
 On July 1, 6415 systems were still vulnerable and a notification was sent.
 
-After a final scan on August 31th, there were still 5447 vulnerable systems left, but the case was closed.
+After a final scan on August 31st, there were still 5447 vulnerable systems left, but the case was closed.
 
 ## **Timeline**
 
