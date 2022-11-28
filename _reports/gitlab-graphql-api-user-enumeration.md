@@ -38,7 +38,7 @@ After a final scan on Augus 31t there were still 5447 vulnerable systems left, b
 | 27 Apr 2022 | DIVD sends out the third notification to abuse mailboxes. |
 | 01 Jul 2022 | DIVD sends out a final notification to abuse mailboxes. |
 
-**Links**
+## **Links**
 
 [https://thehackernews.com/2022/03/new-security-vulnerability-affects.html?m=1](https://thehackernews.com/2022/03/new-security-vulnerability-affects.html?m=1 "https://thehackernews.com/2022/03/new-security-vulnerability-affects.html?m=1")
 
