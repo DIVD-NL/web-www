@@ -7,8 +7,11 @@ case: DIVD-2022-00015
 author: Gerard Janssen
 lead: Martin van Wingerden
 csirt: []
-researchers: []
-excerpt: ''
+researchers:
+- Celistine Oosting
+- Victor Gevers
+- Mick Beer
+excerpt: Several vulnerabilities found in Gitlab
 published: false
 
 ---
