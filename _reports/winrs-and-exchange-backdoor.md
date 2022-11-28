@@ -2,7 +2,7 @@
 layout: report
 has_casefile: true
 date: 2022-11-28
-title: WinRS-and-Exchange-Backdoor
+title: Exchange Backdoor
 case: DIVD-2022-00032
 author: Gerard Janssen
 lead: Victor Pasman
@@ -20,10 +20,6 @@ The first scan on June 6th showed there were 124 exchange servers exposed to the
 
 September 17th there were still 105 servers with a possible backdoor. The system owners were notified, and the case was closed.
 
-**Links**
-
-[https://www.eye.security/blog/winrs-and-exchange-a-sneaky-backdoor](https://www.eye.security/blog/winrs-and-exchange-a-sneaky-backdoor "https://www.eye.security/blog/winrs-and-exchange-a-sneaky-backdoor")
-
 ## **Timeline**
 
 | --- | --- |
@@ -34,3 +30,7 @@ September 17th there were still 105 servers with a possible backdoor. The system
 | 06 Jun 2022 | First round of notifications sent |
 | 21 Jun 2022 | Second round of notifications sent |
 | 18 Sep 2022 | Third round of notifications sent and case closed |
+
+**Links**
+
+https://www.eye.security/blog/winrs-and-exchange-a-sneaky-backdoor
