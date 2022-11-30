@@ -48,4 +48,4 @@ echo "Updating teams and people"
 	cd ../_people
 	rm -rf *.md
 )
-./update_org.py --member-path _people --team-path _teams
+./org_update.py --member-path _people --team-path _teams

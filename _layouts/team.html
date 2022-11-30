@@ -39,7 +39,7 @@ layout: default
 </pre>
 
 
-<div class="mermaid" id='flowChart'>
+<div class="mermaid" id='subChart'>
 flowchart LR
 	{% for m in managers %}
         p{{ m.person_id }}[{{ m.name }}\n{{ member.role }}]
@@ -55,3 +55,4 @@ flowchart LR
         {% endif %}
     {% endfor %}
 </div>
+<a target='#subChart' hidden=true class='save-svg'>To download picture, rigth click this link and save as an .svg file...</a>

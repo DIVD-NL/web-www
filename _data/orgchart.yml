@@ -49,12 +49,12 @@ teams:
   - id: developers-4305694d
     name: Development
     show_members: false
-    reports_to : operations-9af97f41
+    #reports_to : operations-9af97f41
     description: These coders code awesome code for us.
   - id: hrm-f725d44
     name: HRM
     show_members: true
     description: Caring for our volunteers to the maximum extend.
 connectors:
-  - 751352
-  - 751021
+  - 751352 # Chris
+  #- 751021 # Victor G
