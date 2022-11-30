@@ -14,7 +14,7 @@ _cves/
 _teams/
 _people/
 _csirt_posts/
-_data/
+_data/scanners.yml
 *.bak
 *.log
 _config_livereload.yml
