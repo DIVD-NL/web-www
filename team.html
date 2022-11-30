@@ -10,7 +10,9 @@ header: Our teams
     <h3>{{ t.name }}</h3>
 
     {% assign found = site.teams | where: "slug", t.id %}
-    {{ t.description }}
+    <p>
+        {{ t.description }}
+    </p>
     {% if found.size > 0 %}
         <a href='/teams/{{ t.id }}/'>More</a>
     {% endif %}
