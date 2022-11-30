@@ -49,7 +49,7 @@ teams:
   - id: developers-4305694d
     name: Development
     show_members: false
-    #reports_to : operations-9af97f41
+    reports_to : operations-9af97f41
     description: These coders code awesome code for us.
   - id: hrm-f725d44
     name: HRM

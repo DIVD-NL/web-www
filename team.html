@@ -65,7 +65,7 @@ flowchart LR
                     {% unless all_peeps contains p %}
                         {% assign all_peeps = all_peeps | push : p %}
                     {% endunless %}
-                    p{{ p.person_id }}[{{ p.name }}]
+                    p{{ p.person_id }}[{% include liquid_filter.html string=p.name %}]
                 {% endfor %}
             {% else %}
                 {% for p in peeps %}
@@ -80,7 +80,7 @@ flowchart LR
                                 {% assign n = n | plus:  1 %}
                             {% endunless %}
                         {% endfor %}                            
-                        p{{ p.person_id }}[{{ p.name }}\n{{ p.role }}]
+                        p{{ p.person_id }}[{% include liquid_filter.html string=p.name %}\n{% include liquid_filter.html string=p.role %}]
                         {% if n > 0 %}
                             p{{ p.person_id }} --- r_{{ t.id }}_{{ p.person_id }}[{{ n }} team members]
                         {% endif %}
@@ -89,7 +89,7 @@ flowchart LR
                             {% unless all_peeps contains p %}
                                 {% assign all_peeps = all_peeps | push : p %}
                             {% endunless %}
-                            p{{ p.person_id }}[{{ p.name }}\n{{ p.role }}]
+                            p{{ p.person_id }}[{% include liquid_filter.html string=p.name %}\n{% include liquid_filter.html string=p.role %}]
                         {% endunless %}
                     {% endif %}
                 {% endfor %}
