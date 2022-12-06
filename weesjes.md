@@ -1,7 +1,7 @@
 ---
 layout: none
 ---
-{% assign team = site.team | map: "name" -%}
+{% assign team = site.people | map: "name" -%}
 {% assign people = '' %}
 {% for p in site.posts %}
   {% capture people %}{{ p.author }}|{{ people }}{% endcapture%}

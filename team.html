@@ -1,0 +1,119 @@
+---
+layout: default
+title: team
+header: Our teams
+---
+<h2>We have the following awesome teams</h2>
+
+{% for t in site.data.orgchart.teams %}
+
+    <h3>{{ t.name }}</h3>
+
+    {% assign found = site.teams | where: "slug", t.id %}
+    <p>
+        {{ t.description }}
+        {% if found.size > 0 %}
+            <a href='/teams/{{ t.id }}/'>More</a>
+        {% endif %}
+    </p>
+
+{% endfor %}
+
+<h2>Our organisation chart</h2>
+
+{% assign all_managers = "" | split: "," %}
+{% assign all_peeps = "" | split: "," %}
+{% for t in site.data.orgchart.teams %}
+    {% assign team = site.teams | where: "slug", t.id | first %}
+    {% for mid in team.members %}
+        {% assign p = site.people | where: "person_id", mid | first %}
+        {% if p %}
+            {% if p.manager %}
+                {% unless all_managers contains p.manager %}
+                    {% assign all_managers = all_managers | push : p.manager %}
+                {% endunless %}
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+{% endfor %}
+
+
+<div class="mermaid" id='orgChart'>
+flowchart LR
+    {% for t in site.data.orgchart.teams %}
+        {% assign peeps = "" | split: "," %}
+
+        subgraph {{t.id}}[{{ t.name }}]
+            {% if t.orientation %}
+                direction {{ t.orientation }}
+            {% else %}
+                direction LR
+            {% endif %}
+
+            {% assign team = site.teams | where: "slug", t.id | first %}
+            {% assign team_managers = "" | split: "," %}
+            {% for mid in team.members %}
+                {% assign p = site.people | where: "person_id", mid | first %}
+                {% if p %}
+                    {% assign peeps = peeps | push: p %}
+                    {% if all_managers contains p.person_id %}
+                        {% assign team_managers = team_managers | push: p.person_id %}
+                    {% endif %}
+                {% endif %}
+            {% endfor %}
+
+            {% if t.show_members %}
+                {% for p in peeps %}
+                    {% unless all_peeps contains p %}
+                        {% assign all_peeps = all_peeps | push : p %}
+                    {% endunless %}
+                    p{{ p.person_id }}[{% include liquid_filter.html string=p.name %}]
+                {% endfor %}
+            {% else %}
+                {% for p in peeps %}
+                    {% if all_managers contains p.person_id %}
+                        {% unless all_peeps contains p %}
+                            {% assign all_peeps = all_peeps | push : p %}
+                        {% endunless %}
+                        {% assign n = 0 %}
+                        {% assign reports = peeps | where: "manager", p.person_id %}
+                        {% for r in reports %}
+                            {% unless all_managers contains r.person_id %}
+                                {% assign n = n | plus:  1 %}
+                            {% endunless %}
+                        {% endfor %}                            
+                        p{{ p.person_id }}[{% include liquid_filter.html string=p.name %}\n{% include liquid_filter.html string=p.role %}]
+                        {% if n > 0 %}
+                            p{{ p.person_id }} --- r_{{ t.id }}_{{ p.person_id }}[{{ n }} team members]
+                        {% endif %}
+                    {% else %}
+                        {% unless team_managers contains p.manager %}
+                            {% unless all_peeps contains p %}
+                                {% assign all_peeps = all_peeps | push : p %}
+                            {% endunless %}
+                            p{{ p.person_id }}[{% include liquid_filter.html string=p.name %}\n{% include liquid_filter.html string=p.role %}]
+                        {% endunless %}
+                    {% endif %}
+                {% endfor %}
+            {% endif %}
+        end            
+        {% if t.reports_to %}
+            {{ t.reports_to }} --- {{ t.id }}
+        {% endif %}
+    {% endfor %}
+
+    {% for p in all_peeps %}
+        {% if p.manager %}
+            {% if site.data.orgchart.connectors contains p.manager %}
+                c{{ p.manager }} --- p{{ p.person_id }}
+            {% else %}
+                p{{ p.manager }} --- p{{ p.person_id }}
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+    {% for c in site.data.orgchart.connectors %}
+        p{{ c }} ---- c{{ c }}[ ]
+    {% endfor %}
+</div>
+<a href="#" target='#orgChart' hidden="hidden" class='save-svg'>To download picture, rigth click this link and save as an .svg file...</a>
+

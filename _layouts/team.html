@@ -1,37 +1,58 @@
 ---
 layout: default
 ---
-<h1>{{ page.name }}</h1>
+<h2>{{ page.name }}</h2>
 
-<b>Role</b>: {{ page.role }}
-<br>
-<b>Department</b>: {{ page.dept }}
+{% assign from_chart = site.data.orgchart.teams | where: "id", page.slug | first %}
+{{ from_chart.description }}
 
-{{ content | markdownify }}
+<h3>Team members</h3>
 
-<br>
-{% if page.twitter or page.linkedin or page.wikipedia %}
-<h2>Social media</h2>
-{% endif %}
-{% if page.twitter %}
-<a href="https://twitter.com/{{ page.twitter }}" class="icon fa-twitter"><span class="label">Icon</span> - {{ page.twitter }}</a>
-<br>
-{% endif %}
-{% if page.linkedin %}
-<a href="https://www.linkedin.com/in/{{ page.linkedin }}" class="icon fa-linkedin"><span class="label">Icon</span> - {{ page.name }}</a>
-<br>
-{% endif %}
-{% if page.wikipedia %}
-<a href="{{ page.wikipedia }}" class="icon fa-wikipedia-w"><span class="label">Icon</span> - {{ page.name }}</a>
-<br>
-{% endif %}
-{% if page.github %}
-<a href="https://github.com/{{ page.github }}" class="icon fa-github"><span class="label">Icon</span> - {{ page.github }}</a>
-<br>
-{% endif %}
+{% assign the_team = "" | split: "," %}
+{% for id in page.members %}
+	{% assign p = site.people | where: "person_id", id | first %}
+	{% if p.person_id %}
+		{% assign the_team = the_team | push: p %}
+	{% endif %}
+{% endfor %}
 
-{% include
-	posts-cases.html
-	name = page.name
-%}
 
+<ul>
+	{% for p in the_team %}
+		<li><a href="/people/{{ p.name | url_encode | replace: '+', '%20' }}/">{{ p.name }}{% if p.role %} - {{ p.role }}{% endif %}</a></li>
+	{% endfor %}
+</ul>
+
+<h3> Org chart </h3>
+
+<pre>
+	{% assign managers = "" | split: "," %}
+	{% for p in the_team %}
+		{% if p.manager %}
+			{% assign mgr = the_team | where: "person_id", p.manager | first %}
+			{% unless mgr %}
+				{% assign mgr = site.people | where: "person_id", p.manager | first %}
+				{% assign managers = managers | push: mgr %}
+			{% endunless %}
+		{% endif %}
+	{% endfor %}
+</pre>
+
+
+<div class="mermaid" id='subChart'>
+flowchart LR
+	{% for m in managers %}
+        p{{ m.person_id }}[{{ m.name }}\n{{ member.role }}]
+    {% endfor %}
+	subgraph {{ page.slug }}[{{page.name | replace: "[", "" | replace: "]", "" }}]
+        {% for member in the_team %}
+            p{{ member.person_id }}[{{ member.name }}\n{{ member.role | replace: "|", "" }}]
+        {% endfor %}                    
+	end
+    {% for member in the_team %}
+        {% if member.manager %}
+        	p{{ member.manager }} --- p{{ member.person_id }}
+        {% endif %}
+    {% endfor %}
+</div>
+<a href="#" target='#subChart' hidden="hidden" class='save-svg'>To download picture, rigth click this link and save as an .svg file...</a>

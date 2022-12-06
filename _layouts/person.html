@@ -1,0 +1,38 @@
+---
+layout: default
+---
+<h1>{{ page.name }}</h1>
+
+<b>Role</b>: {{ page.role }}
+<br>
+
+{{ content | markdownify }}
+
+<br>
+{% if page.socials.twitterUrl or page.socials.linkedInUrl or page.socials.facebookUrl or page.socials.websiteUrl %}
+<h2>Social media</h2>
+{% endif %}
+
+{% if page.socials.twitterUrl %}
+	<a href="{{ page.socials.twitterUrl }}" class="icon fa-twitter"><span class="label">Icon</span> - @{{ page.socials.twitterUrl | replace: "https://twitter.com/", "" }}</a>
+	<br>
+{% endif %}
+
+{% if page.socials.linkedInUrl %}
+	<a href="{{ page.socials.linkedInUrl }}" class="icon fa-linkedin"><span class="label">Icon</span> - {{ page.name }}</a>
+	<br>
+{% endif %}
+{% if page.socials.facebookUrl %}
+	<a href="{{ page.socials.facebookUrl }}" class="icon fa-facebook-f"><span class="label">Icon</span> - {{ page.socials.facebookUrl | replace: "https://www.facebook.com/", "" }}</a>
+	<br>
+{% endif %}
+{% if page.socials.websiteUrl %}
+	<a href="{{ page.socials.websiteUrl }}" class="icon fa-globe"><span class="label">Icon</span> - {{ page.socials.websiteUrl }}</a>
+	<br>
+{% endif %}
+
+{% include
+	posts-cases.html
+	name = page.name
+%}
+
