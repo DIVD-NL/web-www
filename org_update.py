@@ -20,11 +20,12 @@ if __name__ == '__main__':
 		"operationName": "teamsByCompany",
 		"variables": {
 			"companySlug": "dutch-institute-for-vulnerability-disclosure",
-			"membersLimit": 20,
+			"membersLimit": 100,
 			"offset": 0,
 			"limit": 100
 		},
-		"query": 'query teamsByCompany($companySlug: String!, $limit: Int!, $offset: Int!, $membersLimit: Int!) {\n  teamsByCompany(companySlug: $companySlug, limit: $limit, offset: $offset) {\n    ...LightTeam\n    __typename\n  }\n}\n\nfragment LightTeam on Team {\n  id\n  slug\n  name\n  memberCount\n  members(limit: $membersLimit) {\n    ...LightPositionFragment\n    __typename\n  }\n  __typename\n}\n\nfragment LightPositionFragment on LightPosition {\n  id\n  slug\n  fullName\n  profileImage {\n    ...ImageFragment\n    __typename\n  }\n  role\n  parentPositionId\n  isAdviser\n  lastUpdate\n  __typename\n}\n\nfragment ImageFragment on Image {\n  endpoint\n  ext\n  placeholderDataUrl\n  prevailingColor\n  uri\n  versions\n  __typename\n}\n'
+		"query": 
+			'query teamsByCompany($companySlug: String!, $limit: Int!, $offset: Int!, $membersLimit: Int!) {\n  teamsByCompany(companySlug: $companySlug, limit: $limit, offset: $offset) {\n    ...LightTeam\n    __typename\n  }\n}\n\nfragment LightTeam on Team {\n  id\n  slug\n  name\n  memberCount\n  members(limit: $membersLimit) {\n    ...LightPositionFragment\n    __typename\n  }\n  __typename\n}\n\nfragment LightPositionFragment on LightPosition {\n  id\n  slug\n  fullName\n  profileImage {\n    ...ImageFragment\n    __typename\n  }\n  role\n  parentPositionId\n  isAdviser\n  lastUpdate\n  __typename\n}\n\nfragment ImageFragment on Image {\n  endpoint\n  ext\n  placeholderDataUrl\n  prevailingColor\n  uri\n  versions\n  __typename\n}\n'
 		}
 	headers = {'content-type': 'application/json'}
 

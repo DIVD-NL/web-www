@@ -4,7 +4,7 @@ layout: default
 <h2>{{ page.name }}</h2>
 
 {% assign from_chart = site.data.orgchart.teams | where: "id", page.slug | first %}
-{{ from_chart.description }}
+{{ from_chart.description | markdownify }}
 
 <h3>Team members</h3>
 
@@ -44,9 +44,9 @@ flowchart LR
 	{% for m in managers %}
         p{{ m.person_id }}[{{ m.name }}\n{{ member.role }}]
     {% endfor %}
-	subgraph {{ page.slug }}[{{page.name | replace: "[", "" | replace: "]", "" }}]
+	subgraph {{ page.slug }}[{% include mermaid_filter.html string=page.name %}]
         {% for member in the_team %}
-            p{{ member.person_id }}[{{ member.name }}\n{{ member.role | replace: "|", "" }}]
+            p{{ member.person_id }}[{{ member.name }}\n{% include mermaid_filter.html string=member.role %}]
         {% endfor %}                    
 	end
     {% for member in the_team %}
