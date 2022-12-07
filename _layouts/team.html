@@ -4,7 +4,7 @@ layout: default
 <h2>{{ page.name }}</h2>
 
 {% assign from_chart = site.data.orgchart.teams | where: "id", page.slug | first %}
-{{ from_chart.description }}
+{{ from_chart.description | markdownify }}
 
 <h3>Team members</h3>
 
