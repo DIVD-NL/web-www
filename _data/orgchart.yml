@@ -25,12 +25,7 @@ teams:
     description : |
       The CSIRT is the engineblock of DIVD. It is responsible for scanning the internet and notifying the system owners as well as running our CVE Numbering AUthority activities.
   - id: research-ef826648
-    name: Research level 1
-    show_members: false
-    description: |
-      DIVD has two teams highly skilled security researchers who seek and report vulnerabilities as a voluntary service next to their jobs. DIVD sees to it they follow our [Code of Conduct](https://divd.nl/divd-nl/code/) while we provide them a firewall for journalists, lawyers and recruiters. Meanwhile, their research also serves as an empirical base to discover trends in security, stimulate security awareness and develop new methodologies in vulnerability research and disclosure. So, although you will probably never meet our researchers, you may hope they are checking your systems right now, before the bad guys do...
-  - id: research-level-2-a02bceb3
-    name: Research level 2
+    name: Research
     show_members: false
     description: |
       DIVD has two teams highly skilled security researchers who seek and report vulnerabilities as a voluntary service next to their jobs. DIVD sees to it they follow our [Code of Conduct](https://divd.nl/divd-nl/code/) while we provide them a firewall for journalists, lawyers and recruiters. Meanwhile, their research also serves as an empirical base to discover trends in security, stimulate security awareness and develop new methodologies in vulnerability research and disclosure. So, although you will probably never meet our researchers, you may hope they are checking your systems right now, before the bad guys do...
