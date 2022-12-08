@@ -12,7 +12,7 @@ excerpt: ''
 published: false
 
 ---
-August 2021, DIVD researcher Jan Los noticed something peculiar during his investigation into exposed LDAP servers. LDAP (Lightweight Directory Access Protocol) is a software protocol that helps users find data about organizations, individuals, files, and devices in a network -- whether on the public Internet or on a corporate Intranet.
+January 2022, DIVD researcher Jan Los noticed something peculiar during his investigation into exposed LDAP servers. LDAP (Lightweight Directory Access Protocol) is a software protocol that helps users find data about organizations, individuals, files, and devices in a network -- whether on the public Internet or on a corporate Intranet.
 
 Jan Los found that secure LDAP servers often use an SSL certificate with the subject www.update.microsoft.com. The SSL certificate for [www.update.microsoft.com](http://www.update.microsoft.com) is not trusted anymore because the chain of trust was broken. In 2012 Microsoft had to regenerate the entire certificate chain. Using Shodan Jan Los found LDAP servers using this certificate, 357 listening on the LDAP port, and 8180 listening on the HTTPS port. And the number of servers using this certificate was growing. In a second investigation on 27 Feb 2022, Jan Los found 8588 ip-addresses using the certificate.
 
