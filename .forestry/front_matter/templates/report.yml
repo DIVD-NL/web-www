@@ -59,5 +59,6 @@ fields:
 pages:
 - _reports/gitlab-graphql-api-user-enumeration.md
 - _reports/n-able.md
+- _reports/odd-microsoft-certificate.md
 - _reports/solarman.md
 - _reports/winrs-and-exchange-backdoor.md
