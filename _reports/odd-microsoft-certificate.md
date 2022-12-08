@@ -28,7 +28,7 @@ On the 21st of October, after consulting the Dutch operational response team con
 | 24 Aug 2022 | Case is referred to the ethics committee to see if it fits into the CoC |
 | 19 Sep 2022 | Ethics committee, rules that case is within CoC |
 | 28 Sep 2022 | Ethics committee is asked to reassess the case |
-| 05 Oct 2022 | Ethics comittee explains earlier verdict, the case is a go |
+| 05 Oct 2022 | Ethics committee explains earlier verdict, the case is a go |
 | 21 Oct 2022 | Got a hint from the community |
 | 23 Oct 2022 | Case file published |
 | 23 Oct 2022 | Case closed |
