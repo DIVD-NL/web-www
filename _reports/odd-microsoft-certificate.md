@@ -18,7 +18,7 @@ Jan Los found that secure LDAP servers often use an SSL certificate with the sub
 
 Did these certificates belong to a criminal infrastructure? And if so, would scanning a criminal organization fit within the objectives of the DIVD? The ethical committee of the DIVD, concluded that ‘the purpose of DIVD is to make the internet more secure, and then identifying a criminal network (and taking it offline) could certainly contribute to increasing security.’ But before a final decision was made, another explanation was found for the certificates.
 
-On the 21st of October, after consulting the Dutch operational response team consultation (o-irt-o), the DIVD, it became clear that the servers are used by Touch VPN. Using the certificate may allow TouchVPN to bypass content-filtering devices. DIVD’s data seem in accordance with that explanation, and the case was closed. Touch VPN’s trick might be dubious, the security risk is limited.
+On the 21st of October, after consulting the Dutch operational response team consultation (o-irt-o), it became clear that the servers are used by TouchVPN. Using the certificate may allow TouchVPN to bypass content-filtering devices. DIVD’s data seem in accordance with that explanation, and the case was closed. Touch VPN’s trick might be dubious, the security risk is limited.
 
 ## **Timeline**
 
