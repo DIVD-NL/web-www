@@ -7,7 +7,9 @@ case: DIVD-2022-00013
 author: Gerard Janssen
 lead: Jan Los
 csirt: []
-researchers: []
+researchers:
+- Frank Breedijk
+- Jan Los
 excerpt: ''
 published: false
 
