@@ -10,7 +10,7 @@ csirt: []
 researchers:
 - Frank Breedijk
 - Jan Los
-excerpt: ''
+excerpt: DIVD researcher finds odd certificates
 published: false
 
 ---
