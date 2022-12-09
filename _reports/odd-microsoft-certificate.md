@@ -11,7 +11,6 @@ researchers:
 - Frank Breedijk
 - Jan Los
 excerpt: DIVD researcher finds odd certificates
-published: false
 
 ---
 January 2022, DIVD researcher Jan Los noticed something peculiar during his investigation into exposed LDAP servers. LDAP (Lightweight Directory Access Protocol) is a software protocol that helps users find data about organizations, individuals, files, and devices in a network – whether on the public Internet or on a corporate Intranet.
