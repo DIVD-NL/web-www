@@ -26,7 +26,7 @@ htmlproofer \
 	--disable_external \
 	--allow-hash-href  \
 	--ignore-urls="/#menu/" \
-	--no-enforce-https \
+	--enforce-https=false \
 	_site
 echo "*** External link check ***"
 #(set +e ; htmlproofer \

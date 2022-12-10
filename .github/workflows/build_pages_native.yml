@@ -19,7 +19,7 @@ jobs:
       - name: Install ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.0' 
+          ruby-version: '3.1' 
           bundler-cache: true
       - name: Install python
         uses: actions/setup-python@v4
