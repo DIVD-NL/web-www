@@ -1,0 +1,25 @@
+---
+layout: report
+has_casefile: true
+date: 2022-12-16
+title: Greynoise's Ukraine Only list
+case: DIVD-2022-00014
+author: Gerard Janssen
+lead: Frank Breedijk
+csirt: []
+researchers: []
+excerpt: ''
+published: false
+
+---
+
+  
+On February 24, 2022, cyber security company GreyNoise Intelligence published a “free, public, unauthenticated, self-updating feed of all IPs that are exclusively targeting devices geographically located in Ukraine’s IP space with scans, exploits, etc.” GreyNoise Intelligence is based in Washington DC and analyzes ‘Internet background noise’.
+
+The DIVD examined the list with IP’-adresses and found that some of the IP addresses were hacked NAS servers, routers, and Minecraft servers. 46 worldwide and 1 located in the Netherlands. The DIVD sent notification emails to the owners of these devices.
+
+After that, the number of Ip-addresses grew every week. Overall the DIVD sent 5698 notifications to owners of the IP addresses that appeared on the list.
+
+GreyNoise silently stopped updating the API after 1 Aug 2022. Therefore the DIVD closed this case on August 15, 2022.
+
+On October 5, 2022, there was an evaluation. DIVD’s ethical commission concluded that this case falls outside the current Code of Conduct (CoC) version because the attacker is more than likely one threat actor. DIVD has clearly stated its position not to cooperate (offensively) in global conflicts in which the Netherlands is not directly involved. Younger hackers could see this specific case as a justification to actively cooperate without being aware of possible negative consequences.
