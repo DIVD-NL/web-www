@@ -18,8 +18,10 @@ On February 24, 2022, cyber security company GreyNoise Intelligence published a 
 
 The DIVD examined the list with IP’-adresses and found that some of the IP addresses were hacked NAS servers, routers, and Minecraft servers. The DIVD sent notification emails to the owners of these devices.
 
-After that, the number of IP-addresses grew every week. Overall the DIVD sent 5698 notifications to owners of the IP addresses that appeared on the list.
+Overall the DIVD sent 5698 notifications to owners of the IP addresses that appeared on the list.
 
 GreyNoise silently stopped updating the API after 1 Aug 2022. Therefore the DIVD closed this case on August 15, 2022.
+
+![](/uploads/greynoiseukrainonlygraph.png)
 
 On October 5, 2022, there was an evaluation. DIVD’s ethical commission concluded that this case falls outside the current Code of Conduct (CoC) version because the attacker is more than likely one threat actor. DIVD has clearly stated its position not to cooperate (offensively) in global conflicts in which the Netherlands is not directly involved. Younger hackers could see this specific case as a justification to actively cooperate without being aware of possible negative consequences.
