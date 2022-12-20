@@ -12,7 +12,7 @@ excerpt: ''
 published: false
 
 ---
-On February 24, 2022, cyber security company GreyNoise Intelligence published a “free, public, unauthenticated, self-updating feed of all IPs that are exclusively targeting devices geographically located in Ukraine’s IP space with scans, exploits, etc.” GreyNoise Intelligence is based in Washington DC and analyzes ‘Internet background noise’.
+On February 24, 2022, Andrew Morris, founder of cyber security company GreyNoise Intelligence tweeted about a “free, public, unauthenticated, self-updating feed of all IPs that are exclusively targeting devices geographically located in Ukraine’s IP space with scans, exploits, etc.” GreyNoise Intelligence is based in Washington DC and analyzes ‘Internet background noise’.
 
 ![](/uploads/screenshot-andrew-morris.png)
 
