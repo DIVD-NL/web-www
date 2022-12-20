@@ -14,7 +14,7 @@ published: false
 ---
 On February 24, 2022, cyber security company GreyNoise Intelligence published a “free, public, unauthenticated, self-updating feed of all IPs that are exclusively targeting devices geographically located in Ukraine’s IP space with scans, exploits, etc.” GreyNoise Intelligence is based in Washington DC and analyzes ‘Internet background noise’.
 
-The DIVD examined the list with IP’-adresses and found that some of the IP addresses were hacked NAS servers, routers, and Minecraft servers. 46 worldwide and 1 located in the Netherlands. The DIVD sent notification emails to the owners of these devices.
+The DIVD examined the list with IP’-adresses and found that some of the IP addresses were hacked NAS servers, routers, and Minecraft servers. The DIVD sent notification emails to the owners of these devices.
 
 After that, the number of Ip-addresses grew every week. Overall the DIVD sent 5698 notifications to owners of the IP addresses that appeared on the list.
 
