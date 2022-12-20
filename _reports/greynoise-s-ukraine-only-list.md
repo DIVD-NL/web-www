@@ -24,4 +24,4 @@ GreyNoise silently stopped updating the API after 1 Aug 2022. Therefore the DIVD
 
 ![](/uploads/greynoiseukrainonlygraph.png)
 
-On October 5, 2022, there was an evaluation. DIVD’s ethical commission concluded that this case falls outside the current Code of Conduct (CoC) version because the attacker is more than likely one threat actor. DIVD has clearly stated its position not to cooperate (offensively) in global conflicts in which the Netherlands is not directly involved. Younger hackers could see this specific case as a justification to actively cooperate without being aware of possible negative consequences.
+On October 5, 2022, there was an evaluation of DIVD’s ethical commission. It concluded that this case falls outside the current Code of Conduct (CoC) version because the attacker is more than likely one threat actor. DIVD has clearly stated its position not to cooperate (offensively) in global conflicts in which the Netherlands is not directly involved. Younger hackers could see this specific case as a justification to actively cooperate without being aware of possible negative consequences.
