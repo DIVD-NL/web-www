@@ -28,7 +28,7 @@ On October 5, 2022, there was an evaluation of DIVD’s ethical commission. The 
 
 ## **Timeline**
 
-| --- | --- |
+| :--- :| --- |
 | Date | Description |
 | 24 Feb 2022 | GreyNoise announces their plans to publish a “free, public, unauthenticated, self-updating feed of all IPs that are exclusively targeting devices geographically located in Ukraine’s IP space with scans, exploits, etc.” |
 | 04 Mar 2022 | Case opened |
