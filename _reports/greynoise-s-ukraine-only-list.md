@@ -28,8 +28,6 @@ On October 5, 2022, there was an evaluation of DIVD’s ethical commission. The 
 
 ## Timeline
 
-| :--- | ---: |
-
 |Date | Description |
 
 | 24 Feb 2022 | GreyNoise |
