@@ -14,9 +14,9 @@ published: false
 ---
 On February 24, 2022, Andrew Morris, founder of cyber security company GreyNoise Intelligence tweeted about publishing a “free, public, unauthenticated, self-updating feed of all IPs that are exclusively targeting devices geographically located in Ukraine’s IP space with scans, exploits, etc.”
 
-![](/uploads/screenshot-andrew-morris.png)
+![](/uploads/screenshot-andrew-morris-2.png)
 
-GreyNoise Intelligence is based in Washington DC and analyzes ‘Internet background noise’, in this case IP addresses targeting 'honey pots' based in Ukraine.The DIVD examined the list with IP’-adresses and found that some of the IP addresses were hacked NAS servers, routers, and Minecraft servers. The DIVD sent notification emails to the owners of these devices.
+GreyNoise Intelligence is based in Washington DC and analyzes ‘Internet background noise’, in this case IP addresses targeting 'honey pots' based in Ukraine. The DIVD examined the list with IP’-adresses and found that some of the IP addresses were hacked NAS servers, routers, and Minecraft servers. The DIVD sent notification emails to the owners of these devices.
 
 Overall the DIVD sent 5698 notifications to owners of the IP addresses that appeared on the list.
 
