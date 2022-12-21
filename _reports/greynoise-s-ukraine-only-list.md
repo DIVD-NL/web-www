@@ -38,4 +38,3 @@ On October 5, 2022, there was an evaluation of DIVD’s ethical commission. The 
 |  31 Jul 2022 | Last update to the GreyNoise Ukraine only list |
 | 15 Aug 2022 | Case closed |
 
-{% include timeline.html %}
