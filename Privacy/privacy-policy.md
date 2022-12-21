@@ -5,7 +5,6 @@ author: DIVD
 excerpt: |
   Version: 1.0
   Date: December 18, 2022
-published: false
 
 ---
 <header> <h2>Privacy Policy</h2> </header> This page lists our publicly availably documents focussing on policies and visions.
