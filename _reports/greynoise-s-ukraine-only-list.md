@@ -24,7 +24,7 @@ Overall the DIVD sent 5698 notifications to owners of the IP addresses that appe
 
 GreyNoise silently stopped updating the API after 1 Aug 2022 and the DIVD closed this case on August 15, 2022.
 
-On October 5, 2022, there was an evaluation of DIVD’s ethical commission. The verdict was that this case falls outside the current Code of Conduct (CoC) version because the attacker is more than likely one threat actor. The DIVD has stated its position not to cooperate (offensively) in global conflicts in which the Netherlands is not directly involved.
+On October 5, 2022, there was an evaluation by DIVD’s ethical commission. The verdict was that this case falls outside the current Code of Conduct (CoC) version because the attacker is more than likely one threat actor. The DIVD has stated its position not to cooperate (offensively) in global conflicts in which the Netherlands is not directly involved.
 
 ## **Timeline**
 
@@ -34,4 +34,4 @@ On October 5, 2022, there was an evaluation of DIVD’s ethical commission. The 
 | 05 Mar 2022 | First notifications sent |
 | 31 Jul 2022 | Last update to Greynoise Ukraine only list|
 | 15 Aug 2022 | Case closed |
-| 05 Oct 2022 | Verdict ethical commission | 
+| 05 Oct 2022 | Verdict ethical commission |
