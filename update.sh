@@ -41,11 +41,15 @@ echo "Updating plugins"
 	rm casesPlugin.rb cve_json.rb
 	cp ../csirt.divd.nl/_plugins/*.rb .
 )
-echo "Updating teams and people"
-(
-	cd _teams
-	rm -rf *.md
-	cd ../_people
-	rm -rf *.md
-)
-./org_update.py --member-path _people --team-path _teams
+if [[ /usr/bin/env python3 -c "import json
+import requests
+import argparse" ]] ; then 
+	echo "Updating teams and people"
+	(
+		cd _teams
+		rm -rf *.md
+		cd ../_people
+		rm -rf *.md
+	)
+	./org_update.py --member-path _people --team-path _teams
+fi
