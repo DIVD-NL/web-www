@@ -25,3 +25,13 @@ GreyNoise silently stopped updating the API after 1 Aug 2022. Therefore the DIVD
 ![](/uploads/greynoiseukrainonlygraph2.png)
 
 On October 5, 2022, there was an evaluation of DIVD’s ethical commission. The verdict was that this case falls outside the current Code of Conduct (CoC) version because the attacker is more than likely one threat actor. DIVD has clearly stated its position not to cooperate (offensively) in global conflicts in which the Netherlands is not directly involved.
+
+## **Timeline**
+
+| --- | --- |
+| Date | Description |
+| 24 Feb 2022 | GreyNoise anounces their plans to publish a “free, public, unauthenticated, self-updating feed of all IPs that are exclusively targeting devices geographically located in Ukraine’s IP space with scans, exploits, etc.” |
+| 04 Mar 2022 | Case opened |
+| 05 Mar 2022 | First notifications sent |
+|  31 Jul 2022 | Last update to the GreyNoise Ukraine only list |
+| 15 Aug 2022 | Case closed |
