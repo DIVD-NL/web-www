@@ -20,7 +20,7 @@ GreyNoise Intelligence is based in Washington DC and analyzes ‘Internet backgr
 
 ![Two waves of activity](/uploads/greynoiseukrainonlygraph2.png "Servers targeting honey pots in Ukraine")
 
-Overall the DIVD sent 5698 notification emails to owners of the IP addresses that appeared on the list.
+Overall the DIVD sent 5698 notifications to owners of the IP addresses that appeared on the list.
 
 GreyNoise silently stopped updating the API after 1 Aug 2022 and the DIVD closed this case on August 15, 2022.
 
