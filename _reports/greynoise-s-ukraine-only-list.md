@@ -16,15 +16,15 @@ On February 24, 2022, Andrew Morris – founder of cyber security company GreyNo
 
 ![](/uploads/screenshot-andrew-morris-2.png)
 
-GreyNoise Intelligence is based in Washington DC and analyzes ‘Internet background noise’, in this case IP addresses targeting 'honey pots' based in Ukraine. The DIVD examined the list with IP’-adresses and found that some of the IP addresses were hacked NAS servers, routers, and Minecraft servers. The DIVD sent notification emails to the owners of these devices.
-
-Overall the DIVD sent 5698 notifications to owners of the IP addresses that appeared on the list.
-
-GreyNoise silently stopped updating the API after 1 Aug 2022. Therefore the DIVD closed this case on August 15, 2022.
+GreyNoise Intelligence is based in Washington DC and analyzes ‘Internet background noise’, in this case IP addresses targeting 'honey pots' based in Ukraine. The DIVD examined the list with IP’-adresses and found that some of the IP addresses were hacked NAS servers, routers, and AWS instances. 
 
 ![Two waves of activity](/uploads/greynoiseukrainonlygraph2.png "Servers targeting honey pots in Ukraine")
 
-On October 5, 2022, there was an evaluation of DIVD’s ethical commission. The verdict was that this case falls outside the current Code of Conduct (CoC) version because the attacker is more than likely one threat actor. DIVD has clearly stated its position not to cooperate (offensively) in global conflicts in which the Netherlands is not directly involved.
+Overall the DIVD sent 5698 notification emails to owners of the IP addresses that appeared on the list.
+
+GreyNoise silently stopped updating the API after 1 Aug 2022. Therefore the DIVD closed this case on August 15, 2022.
+
+On October 5, 2022, there was an evaluation of DIVD’s ethical commission. The verdict was that this case falls outside the current Code of Conduct (CoC) version because the attacker is more than likely one threat actor. The DIVD has stated its position not to cooperate (offensively) in global conflicts in which the Netherlands is not directly involved.
 
 ## **Timeline**
 
