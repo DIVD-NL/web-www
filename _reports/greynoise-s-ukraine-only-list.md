@@ -16,7 +16,7 @@ On February 24, 2022, Andrew Morris – founder of cyber security company GreyNo
 
 ![](/uploads/screenshot-andrew-morris-2.png)
 
-GreyNoise Intelligence is based in Washington DC and analyzes ‘Internet background noise’, in this case IP addresses targeting 'honey pots' based in Ukraine. The DIVD examined the list with IP addresses and found that some of the IP addresses were compromised NAS servers, routers, and AWS instances.
+GreyNoise Intelligence is based in Washington DC and analyzes ‘Internet background noise’, in this case, IP addresses targeting 'honey pots' based in Ukraine. The DIVD examined the list with IP addresses and found that some of the IP addresses were compromised NAS servers, routers, and AWS instances.
 
 ![Two waves of activity](/uploads/greynoiseukrainonlygraph2.png "Servers targeting honey pots in Ukraine")
 
