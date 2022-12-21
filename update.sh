@@ -41,10 +41,10 @@ echo "Updating plugins"
 	rm casesPlugin.rb cve_json.rb
 	cp ../csirt.divd.nl/_plugins/*.rb .
 )
-if [[ /usr/bin/env python3 -c "import json
+echo "Updating teams and people"
+if /usr/bin/env python3 -c "import json
 import requests
-import argparse" ]] ; then 
-	echo "Updating teams and people"
+import argparse" ; then 
 	(
 		cd _teams
 		rm -rf *.md
@@ -52,4 +52,6 @@ import argparse" ]] ; then
 		rm -rf *.md
 	)
 	./org_update.py --member-path _people --team-path _teams
+else
+	echo "Not updated, python packages are missing"
 fi
