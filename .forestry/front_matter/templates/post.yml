@@ -16,3 +16,5 @@ fields:
 - type: textarea
   name: excerpt
   label: excerpt
+pages:
+- Privacy/privacy-policy.md
