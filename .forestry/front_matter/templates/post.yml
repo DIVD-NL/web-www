@@ -18,3 +18,4 @@ fields:
   label: excerpt
 pages:
 - Privacy/privacy-policy.md
+- _posts/dissecting-fortigate-images-for-fun-and-no-profit.md
