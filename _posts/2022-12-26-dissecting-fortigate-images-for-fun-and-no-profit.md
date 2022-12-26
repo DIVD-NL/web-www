@@ -2,7 +2,9 @@
 layout: news
 title: Dissecting FortiGate Images for Fun and No Profit
 author: Axel
-excerpt: ''
+excerpt: Like many other researchers we recently dived into the new FortiGate SSLVPN
+  vulnerability (CVE-2022-42475) which consists of a heap overflow vulnerability in
+  the SSLVPN service.
 
 ---
 Like many other researchers we recently dived into the new [FortiGate SSLVPN vulnerability (CVE-2022-42475)](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-42475) which consists of a heap overflow vulnerability in the SSLVPN service.
