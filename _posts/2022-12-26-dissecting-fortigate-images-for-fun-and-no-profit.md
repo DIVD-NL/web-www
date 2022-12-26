@@ -95,8 +95,6 @@ We decided to give it a go and downloaded a bunch of different images:
 
 Going through the process described in the chapter before by hand was not an option, so we came up with a way to automate it.
 
-## 
-
 ## Dissect
 
 Next step of course is to automate the process of checking the 303 different `FortiGate` images for the `portal.html` files containing the hash using `Dissect`.  It’s as easy as performing the steps described earlier, but using  Python to automate the whole process and storing the different hashes of  each version in a `.json` file.
@@ -128,8 +126,6 @@ We now have a `CpioFile` object containing the root filesystem of the `FortiGate
 With this we can freely extract single files, or extract all of the files and directories much like a `TAR`  file. From here on it’s pretty straightforward, we grab the files we’re  interested in and can do our analysis in an automated fashion  leveraging Python to do the heavy lifting for us so we can grab some  coffee while it is happily parsing the image files.
 
 **if you’re interested in the script that was used you can find it at**: [https://gist.github.com/sud0woodo/36a3177de819621ed162b222c6f861e7](https://gist.github.com/sud0woodo/36a3177de819621ed162b222c6f861e7)
-
-## 
 
 ## Conclusion
 
