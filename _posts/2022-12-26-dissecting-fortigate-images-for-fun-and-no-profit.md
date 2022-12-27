@@ -99,8 +99,6 @@ Going through the process described in the chapter before by hand was not an opt
 
 Next step of course is to automate the process of checking the 303 different `FortiGate` images for the `portal.html` files containing the hash using `Dissect`.  It’s as easy as performing the steps described earlier, but using  Python to automate the whole process and storing the different hashes of  each version in a `.json` file.
 
-To extract the `rootfs.gz` file automatically we can use the `target-query` module using the `icat` plugin to save a file by specifying the `inode` number:
-
     >>> import io
     >>> from dissect.target import Target
     >>> from dissect.util import cpio
