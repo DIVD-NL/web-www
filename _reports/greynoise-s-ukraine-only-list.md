@@ -29,7 +29,7 @@ This case was out of the ordinary. On October 5, 2022, there was an evaluation b
 ## **Timeline**
 
 |Date | Description |
-| 24 Feb 2022 | GreyNoise announces their plans to publish a feed of IP's that target devices geographically locateed in Ukraine |
+| 24 Feb 2022 | GreyNoise announces their plans to publish a feed of IP's that target devices geographically located in Ukraine |
 | 04 Mar 2022 | Case opened |
 | 05 Mar 2022 | First notifications sent |
 | 31 Jul 2022 | Last update to Greynoise Ukraine only list|
