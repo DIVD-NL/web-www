@@ -24,7 +24,7 @@ Overall the DIVD sent 5698 notifications to owners of the IP addresses that appe
 
 GreyNoise stopped updating the API after 1 Aug 2022 and the DIVD closed this case on August 15, 2022.
 
-This case was out of the ordinary. On October 5, 2022, there was an evaluation by Therefore DIVD’s ethical commission evaluated the case on October 5, 2022. The verdict was that this case falls outside the current Code of Conduct (CoC) version because the attacker is more than likely one threat actor. The DIVD has stated its position not to cooperate (offensively) in global conflicts in which the Netherlands is not directly involved.
+This case was unusual Therefore DIVD’s ethical commission evaluated the case on October 5, 2022. The verdict was that this case falls outside the current Code of Conduct (CoC) version because the attacker is more than likely one threat actor. The DIVD has stated its position not to cooperate (offensively) in global conflicts in which the Netherlands is not directly involved.
 
 ## **Timeline**
 
