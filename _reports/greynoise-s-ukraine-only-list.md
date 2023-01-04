@@ -9,7 +9,6 @@ lead: Frank Breedijk
 csirt: []
 researchers: []
 excerpt: ''
-published: false
 
 ---
 On February 24, 2022, Andrew Morris – founder of cyber security company GreyNoise Intelligence – [tweeted ](https://twitter.com/Andrew___Morris/status/1496923547872206852?s=20&t=Y5vBKAso8TRrwief4KpbLg)about a “free, public, unauthenticated, self-updating feed of all IPs that are exclusively targeting devices geographically located in Ukraine’s IP space with scans, exploits, etc.”
