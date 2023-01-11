@@ -23,7 +23,7 @@ teams:
     show_members: false
     lead: Lennaert
     description : |
-      The CSIRT is the engineblock of DIVD. It is responsible for scanning the internet and notifying the system owners as well as running our CVE Numbering AUthority activities.
+      The CSIRT is the engineblock of DIVD. It is responsible for scanning the internet and notifying the system owners as well as running our CVE Numbering Authority activities.
   - id: research-ef826648
     name: Research
     show_members: false
