@@ -57,6 +57,7 @@ fields:
   name: excerpt
   label: Excerpt
 pages:
+- _reports/confluence.md
 - _reports/gitlab-graphql-api-user-enumeration.md
 - _reports/greynoise-s-ukraine-only-list.md
 - _reports/n-able.md
