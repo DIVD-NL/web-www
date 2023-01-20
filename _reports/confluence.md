@@ -73,5 +73,5 @@ November 5th the DIVD found still 540 vulnerable hosts. DIVD sent notifications 
 				Data concerning the Netherlands shared with the Digital Trust Center and the Dutch Security Clearing House (Security Meldpunt) :  milestone, 2022-05-24, 0d
 				In the second scan we sent over 15000 notifications concerning vulnerable hosts :  milestone, 2022-06-10, 0d
 				Data concerning the Netherlands shared with the Digital Trust Center and the Dutch Security Clearing House (Security Meldpunt) again :  milestone, 2022-06-10, 0d
-				</div>
+</div>
 
