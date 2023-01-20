@@ -67,10 +67,11 @@ November 5th the DIVD found still 540 vulnerable hosts. DIVD sent notifications 
 	    section Case
 	    DIVD-2022-00030 - Exposed QNAP (still open)           :2022-05-23, 2023-01-26
 	    section Events
-		DIVD starts investigating the scope and impact of the vulnerability. :  milestone, 2022-05-23, 10d
+		DIVD starts investigating the scope and impact of the vulnerability. :  milestone, 2022-05-23, 0d
 				First version of this case file. :  milestone, 2022-05-23, 0d
 				First round of notifications sent to about 10000 hosts :  milestone, 2022-05-24, 0d
 				Data concerning the Netherlands shared with the Digital Trust Center and the Dutch Security Clearing House (Security Meldpunt) :  milestone, 2022-05-24, 0d
 				In the second scan we sent over 15000 notifications concerning vulnerable hosts :  milestone, 2022-06-10, 0d
 				Data concerning the Netherlands shared with the Digital Trust Center and the Dutch Security Clearing House (Security Meldpunt) again :  milestone, 2022-06-10, 0d
 				</div>
+
