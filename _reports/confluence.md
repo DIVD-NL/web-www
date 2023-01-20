@@ -59,7 +59,7 @@ November 5th the DIVD found still 540 vulnerable hosts. DIVD sent notifications 
 | 16 Jun 2022 | Rescanning with a non-intrusive command execution for visibility on the decreasing number of vulnerable instances |
 | 05 Nov 2022 | Rescan and notify (again with a non-intrusive command execution) for visibility on the decreasing number of vulnerable instances. |
 
-<div class="mermaid">
+
 	gantt
 	    title DIVD-2022-00030 - Exposed QNAP
 	    dateFormat  YYYY-MM-DD
@@ -73,5 +73,3 @@ November 5th the DIVD found still 540 vulnerable hosts. DIVD sent notifications 
 				Data concerning the Netherlands shared with the Digital Trust Center and the Dutch Security Clearing House (Security Meldpunt) :  milestone, 2022-05-24, 0d
 				In the second scan we sent over 15000 notifications concerning vulnerable hosts :  milestone, 2022-06-10, 0d
 				Data concerning the Netherlands shared with the Digital Trust Center and the Dutch Security Clearing House (Security Meldpunt) again :  milestone, 2022-06-10, 0d
-</div>
-
