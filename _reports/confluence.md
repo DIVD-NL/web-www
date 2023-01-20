@@ -27,9 +27,7 @@ On June 2nd, researchers at the American security company Volexity announced the
 
 It was a race against time.
 
-On June 3rd patches became available, Soon after that a proof of concept became available, resulting in a massive spread of malware.
-
-Greynoise.io found 350 unique IP addresses that were scanning for this vulnerability. 349 of them were marked ‘malicious’.
+On June 3rd patches became available, Soon after that a proof of concept became available, resulting in a massive spread of malware. Greynoise.io found 350 unique IP addresses that were scanning for this vulnerability. 349 of them were marked ‘malicious’.
 
 On June 4th 14378 hosts were contacted by the DIVD. The Dutch part of the data was shared with the[ Dutch Digital Trust Center](https://www.digitaltrustcenter.nl/dreigingsinformatie-ontvangen) which informed affected Dutch companies.
 
@@ -60,3 +58,19 @@ November 5th the DIVD found still 540 vulnerable hosts. DIVD sent notifications 
 | 08 Jun 2022 | All other data concerning the Netherlands shared with the Digital Trust Center and the Dutch Security Clearing House (Security Meldpunt) |
 | 16 Jun 2022 | Rescanning with a non-intrusive command execution for visibility on the decreasing number of vulnerable instances |
 | 05 Nov 2022 | Rescan and notify (again with a non-intrusive command execution) for visibility on the decreasing number of vulnerable instances. |
+
+<div class="mermaid">
+	gantt
+	    title DIVD-2022-00030 - Exposed QNAP
+	    dateFormat  YYYY-MM-DD
+	    axisFormat  %e %b %Y
+	    section Case
+	    DIVD-2022-00030 - Exposed QNAP (still open)           :2022-05-23, 2023-01-26
+	    section Events
+		DIVD starts investigating the scope and impact of the vulnerability. :  milestone, 2022-05-23, 0d
+				First version of this case file. :  milestone, 2022-05-23, 0d
+				First round of notifications sent to about 10000 hosts :  milestone, 2022-05-24, 0d
+				Data concerning the Netherlands shared with the Digital Trust Center and the Dutch Security Clearing House (Security Meldpunt) :  milestone, 2022-05-24, 0d
+				In the second scan we sent over 15000 notifications concerning vulnerable hosts :  milestone, 2022-06-10, 0d
+				Data concerning the Netherlands shared with the Digital Trust Center and the Dutch Security Clearing House (Security Meldpunt) again :  milestone, 2022-06-10, 0d
+				</div>
