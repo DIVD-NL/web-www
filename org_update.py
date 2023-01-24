@@ -61,11 +61,12 @@ if __name__ == '__main__':
 	print("Updating people",end="")
 	for node in r.json()["data"]["company"]["nodes"] :
 		if node["leafMember"]["slug"] :
-			with open("{}/{}.md".format(args.member_path, node["leafMember"]["fullName"]), "w") as mfh :
+			name = node["leafMember"]["fullName"].replace(".","")
+			with open("{}/{}.md".format(args.member_path, name), "w") as mfh :
 				mfh.write("---\n")
 				mfh.write("layout: person\n")
 				mfh.write("person_id: {}\n".format(node["leafMember"]["id"] or ""))
-				mfh.write("name: \"{}\"\n".format(node["leafMember"]["fullName"] or ""))
+				mfh.write("name: \"{}\"\n".format(name or ""))
 				mfh.write("role: \"{}\"\n".format(node["leafMember"]["role"] or "")) 
 				mfh.write("manager: {}\n".format(node["leafMember"]["parentPositionId"] or ""))
 				mfh.write("socials :\n")
