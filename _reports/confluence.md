@@ -62,19 +62,13 @@ November 5th the DIVD found still 540 vulnerable hosts. DIVD sent notifications 
 <div class="mermaid">
 
 	gantt
-
 	    title DIVD-2022-00033 - Atlassian Confluence 0-day unauthenticated RCE
-
 	    dateFormat  YYYY-MM-DD
-
 	    axisFormat  %e %b %Y
-
 	    section Case
-
 	    DIVD-2022-00033 - Atlassian Confluence 0-day unauthenticated RCE (181 days)            :2022-06-03, 2022-12-01
 
 	    section Events
-
 		Volexity publishes about 0-day vulnerability in Confluence :  milestone, 2022-06-02, 0d
 
 				Official Atlassion advisory published :  milestone, 2022-06-03, 0d
