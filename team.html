@@ -99,7 +99,7 @@ flowchart LR
             {% endif -%}
         end            
         {% if t.reports_to -%}
-            {{ t.reports_to }} --- {{ t.id }}
+            {{ t.reports_to }} ----> {{ t.id }}
         {% endif -%}
     {% endfor %}
 
