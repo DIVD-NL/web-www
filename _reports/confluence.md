@@ -59,17 +59,4 @@ November 5th the DIVD found still 540 vulnerable hosts. DIVD sent notifications 
 | 16 Jun 2022 | Rescanning with a non-intrusive command execution for visibility on the decreasing number of vulnerable instances |
 | 05 Nov 2022 | Rescan and notify (again with a non-intrusive command execution) for visibility on the decreasing number of vulnerable instances. |
 
-
-	gantt
-	    title DIVD-2022-00030 - Exposed QNAP
-	    dateFormat  YYYY-MM-DD
-	    axisFormat  %e %b %Y
-	    section Case
-	    DIVD-2022-00030 - Exposed QNAP (still open)           :2022-05-23, 2023-01-26
-	    section Events
-		DIVD starts investigating the scope and impact of the vulnerability. :  milestone, 2022-05-23, 0d
-				First version of this case file. :  milestone, 2022-05-23, 0d
-				First round of notifications sent to about 10000 hosts :  milestone, 2022-05-24, 0d
-				Data concerning the Netherlands shared with the Digital Trust Center and the Dutch Security Clearing House (Security Meldpunt) :  milestone, 2022-05-24, 0d
-				In the second scan we sent over 15000 notifications concerning vulnerable hosts :  milestone, 2022-06-10, 0d
-				Data concerning the Netherlands shared with the Digital Trust Center and the Dutch Security Clearing House (Security Meldpunt) again :  milestone, 2022-06-10, 0d
+gantt title DIVD-2022-00033 - Atlassian Confluence 0-day unauthenticated RCE dateFormat YYYY-MM-DD axisFormat %e %b %Y section Case DIVD-2022-00033 - Atlassian Confluence 0-day unauthenticated RCE (181 days) :2022-06-03, 2022-12-01 section Events Volexity publishes about 0-day vulnerability in Confluence : milestone, 2022-06-02, 0d Official Atlassion advisory published : milestone, 2022-06-03, 0d First version of this case file : milestone, 2022-06-03, 0d Patches announced : milestone, 2022-06-03, 0d Patches available : milestone, 2022-06-03, 0d Proof of Concept for exploitation is shared publicy online : milestone, 2022-06-03, 0d Notifications being sent to about 15k vulnerable instances : milestone, 2022-06-04, 0d Data concerning the Netherlands shared with the Digital Trust Center and the Dutch Security Clearing House (Security Meldpunt) : milestone, 2022-06-06, 0d Approximately 1150 additional vulnerable instances identified and vulnerable owners were sent notifications : milestone, 2022-06-06, 0d Approximately 800+ additional vulnerable instances identified and vulnerable owners were sent notifications : milestone, 2022-06-07, 0d All other data concerning the Netherlands shared with the Digital Trust Center and the Dutch Security Clearing House (Security Meldpunt) : milestone, 2022-06-08, 0d Rescanning with a non-intrusive command execution for visibility on the decreasing number of vulnerable instances : milestone, 2022-06-16, 0d Rescan and notify (again with a non-intrusive command execution) for visibility on the decreasing number of vulnerable instances. : milestone, 2022-11-05, 0d Case closed : milestone, 2022-12-01, 0d
