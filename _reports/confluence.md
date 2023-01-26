@@ -23,7 +23,7 @@ On June 2nd, researchers at the American security company Volexity announced the
 
 On June 3rd, patches became available. Soon after that, a proof of concept became available, resulting in the spread of malware. Attackers have placed crypto miners, Mirai botnet agents, and web shells on servers. Greynoise.io found 350 unique IP addresses that were scanning for this vulnerability. 349 of them were marked ‘malicious’, the only benign one was DIVD’s IP address. DIVD-volunteers found ‘high-level targets’ like banks, transport companies, telcos, military software companies, and data centers. It was a race against time, again.
 
-On June 4th, the DIVD sent 18469 notification emails to Internet Service Providers or server owners. Most servers were found in the US and Germany (see Pie Chart). The Dutch part of the data was shared with NSM (Het Nederlands Security Meldpunt) and the Dutch Digital Trust Center (DTC), which informed affected Dutch companies.
+On June 4th, the DIVD sent 18469 notification emails to Internet Service Providers or server owners. Most servers were found in the US and Germany (see pie chart). The Dutch part of the data was shared with NSM (Het Nederlands Security Meldpunt) and the Dutch Digital Trust Center (DTC), which informed affected Dutch companies.
 
 ![](/uploads/confluence_graph.png)
 
