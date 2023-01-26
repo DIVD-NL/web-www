@@ -12,7 +12,6 @@ researchers:
 - Pepijn van der Stap
 - Victor Pasman
 excerpt: Critical zeroday in Atlassian Confluence management software
-published: false
 
 ---
 On May 30th – Memorial Day 2022 – researchers of the Washington DC based cybersecurity firm Volexity started an investigation after one of the customers detected suspicious activity on two internet-facing web servers, that were running Atlassian Confluence Server software.
