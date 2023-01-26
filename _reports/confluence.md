@@ -17,11 +17,8 @@ published: false
 ---
 On May 30th – Memorial Day 2022 – researchers of the Washington DC based cybersecurity firm Volexity started an investigation after one of the customers detected suspicious activity on two internet-facing web servers, that were running Atlassian Confluence Server software.
 
-Researchers of Volexity found web shells being written to the disk. The Volexity-researchers were able to recreate the exploit and identify the zero-day vulnerability, in the current versions of Confluence Server and Data Center, which are used by governments, banks, and critical infrastructure.
+As the Volexity researchers delved deeper into their investigations, they uncovered a cunning plot. They discovered web shells being written to the disk, and upon further analysis, were able to recreate the exploit and identify a zero-day vulnerability in the current versions of the Confluence Server and Data Center. This software, used by governments, banks, and critical infrastructure, was under attack. Volexity acted quickly, contacting Atlassian on May 31, 2022, to report the relevant details of their findings. At the time of discovery, this exploit was only used in a very targeted way. 
 
-Volexity contacted Atlassian to report the relevant details on May 31, 2022. At the time of discovery, this exploit was only used in a very targeted way.
-
-Atlassian has confirmed the vulnerability
 
 On June 2nd, researchers at the American security company Volexity announced the vulnerability (CVE-2022-26134). On the same day, volunteers of the DIVD started scanning, using the version numbers of the identified instances.
 
@@ -61,40 +58,40 @@ November 5th the DIVD found still 540 vulnerable hosts. DIVD sent notifications 
 
 <div class="mermaid">
 
-	gantt
-	    title DIVD-2022-00033 - Atlassian Confluence 0-day unauthenticated RCE
-	    dateFormat  YYYY-MM-DD
-	    axisFormat  %e %b %Y
-	    section Case
-	    DIVD-2022-00033 - Atlassian Confluence 0-day unauthenticated RCE (181 days)            :2022-06-03, 2022-12-01
-
-	    section Events
-		Volexity publishes about 0-day vulnerability in Confluence :  milestone, 2022-06-02, 0d
-
-				Official Atlassion advisory published :  milestone, 2022-06-03, 0d
-
-				First version of this case file :  milestone, 2022-06-03, 0d
-
-				Patches announced :  milestone, 2022-06-03, 0d
-
-				Patches available :  milestone, 2022-06-03, 0d
-
-				Proof of Concept for exploitation is shared publicy online :  milestone, 2022-06-03, 0d
-
-				Notifications being sent to about 15k vulnerable instances :  milestone, 2022-06-04, 0d
-
-				Data concerning the Netherlands shared with the Digital Trust Center and the Dutch Security Clearing House (Security Meldpunt) :  milestone, 2022-06-06, 0d
-
-				Approximately 1150 additional vulnerable instances identified and vulnerable owners were sent notifications :  milestone, 2022-06-06, 0d
-
-				Approximately 800+ additional vulnerable instances identified and vulnerable owners were sent notifications :  milestone, 2022-06-07, 0d
-
-				All other data concerning the Netherlands shared with the Digital Trust Center and the Dutch Security Clearing House (Security Meldpunt) :  milestone, 2022-06-08, 0d
-
-				Rescanning with a non-intrusive command execution for visibility on the decreasing number of vulnerable instances :  milestone, 2022-06-16, 0d
-
-				Rescan and notify (again with a non-intrusive command execution) for visibility on the decreasing number of vulnerable instances. :  milestone, 2022-11-05, 0d
-
-				Case closed :  milestone, 2022-12-01, 0d
-
-				</div>
+    gantt
+        title DIVD-2022-00033 - Atlassian Confluence 0-day unauthenticated RCE
+        dateFormat  YYYY-MM-DD
+        axisFormat  %e %b %Y
+        section Case
+        DIVD-2022-00033 - Atlassian Confluence 0-day unauthenticated RCE (181 days)            :2022-06-03, 2022-12-01
+    
+        section Events
+    	Volexity publishes about 0-day vulnerability in Confluence :  milestone, 2022-06-02, 0d
+    
+    			Official Atlassion advisory published :  milestone, 2022-06-03, 0d
+    
+    			First version of this case file :  milestone, 2022-06-03, 0d
+    
+    			Patches announced :  milestone, 2022-06-03, 0d
+    
+    			Patches available :  milestone, 2022-06-03, 0d
+    
+    			Proof of Concept for exploitation is shared publicy online :  milestone, 2022-06-03, 0d
+    
+    			Notifications being sent to about 15k vulnerable instances :  milestone, 2022-06-04, 0d
+    
+    			Data concerning the Netherlands shared with the Digital Trust Center and the Dutch Security Clearing House (Security Meldpunt) :  milestone, 2022-06-06, 0d
+    
+    			Approximately 1150 additional vulnerable instances identified and vulnerable owners were sent notifications :  milestone, 2022-06-06, 0d
+    
+    			Approximately 800+ additional vulnerable instances identified and vulnerable owners were sent notifications :  milestone, 2022-06-07, 0d
+    
+    			All other data concerning the Netherlands shared with the Digital Trust Center and the Dutch Security Clearing House (Security Meldpunt) :  milestone, 2022-06-08, 0d
+    
+    			Rescanning with a non-intrusive command execution for visibility on the decreasing number of vulnerable instances :  milestone, 2022-06-16, 0d
+    
+    			Rescan and notify (again with a non-intrusive command execution) for visibility on the decreasing number of vulnerable instances. :  milestone, 2022-11-05, 0d
+    
+    			Case closed :  milestone, 2022-12-01, 0d
+    
+    			</div>
