@@ -44,7 +44,7 @@ November 5th the DIVD found still 540 vulnerable hosts. DIVD sent notifications 
 | --- | --- |
 | Date | Description |
 | 02 Jun 2022 | Volexity publishes about 0-day vulnerability in Confluence |
-| 03 Jun 2022 | Official Atlassion advisory published |
+| 03 Jun 2022 | Official Atlassian advisory published |
 | 03 Jun 2022 | First version of this case file |
 | 03 Jun 2022 | Patches announced |
 | 03 Jun 2022 | Patches available |
