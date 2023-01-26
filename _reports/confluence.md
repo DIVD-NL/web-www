@@ -37,6 +37,8 @@ November 5th the DIVD found still 540 vulnerable hosts. DIVD sent notifications 
 
 [https://www.volexity.com/blog/2022/06/02/zero-day-exploitation-of-atlassian-confluence/](https://www.volexity.com/blog/2022/06/02/zero-day-exploitation-of-atlassian-confluence/ "https://www.volexity.com/blog/2022/06/02/zero-day-exploitation-of-atlassian-confluence/")
 
+[https://confluence.atlassian.com/doc/confluence-security-advisory-2022-06-02-1130377146.html](https://confluence.atlassian.com/doc/confluence-security-advisory-2022-06-02-1130377146.html "https://confluence.atlassian.com/doc/confluence-security-advisory-2022-06-02-1130377146.html")
+
 ## **Timeline**
 
 | --- | --- |
