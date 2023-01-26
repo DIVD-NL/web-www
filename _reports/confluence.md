@@ -17,15 +17,15 @@ published: false
 ---
 On May 30th – Memorial Day 2022 – researchers of the Washington DC based cybersecurity firm Volexity started an investigation after one of the customers detected suspicious activity on two internet-facing web servers, that were running Atlassian Confluence Server software.
 
-As the Volexity researchers delved deeper into their investigations, they discovered web shells being written to the disk, and upon further analysis, were able to recreate the exploit and so identifie a zero-day vulnerability in the current versions of the Confluence Server and Data Center. This software, used by governments, banks, and critical infrastructure, was under attack. Volexity acted quickly, contacting Atlassian on May 31, 2022, to report the relevant details of their findings. At the time of discovery, this exploit was only used in a very targeted way. 
-
+As the Volexity researchers delved deeper into their investigations, they discovered web shells being written to the disk, and upon further analysis, were able to recreate the exploit and so identifie a zero-day vulnerability in the current versions of the Confluence Server and Data Center. This software, used by governments, banks, and critical infrastructure, was under attack. Volexity acted quickly, contacting Atlassian on May 31, 2022, to report the relevant details of their findings. At the time of discovery, this exploit was only used in a very targeted way.
 
 On June 2nd, researchers at the American security company Volexity announced the vulnerability (CVE-2022-26134). Attackers could use it to get access to an organization's infrastructure, create admin users, and steal all internal data from the Confluence instance. Atlassian recommended removing installations from the internet ‘immediately’.
 
-On June 3rd, patches became available. Soon after that, a proof of concept became available, resulting in the spread of malware. Attackers have placed crypto miners, Mirai botnet agents, and web shells on servers. Greynoise.io found 350 unique IP addresses that were scanning for this vulnerability. 349 of them were marked ‘malicious’, the only benign one was DIVD’s IP address. DIVD-volunteers found ‘high-level targets’ like banks, transport companies, telcos, military software companies, and data centers. It was a race against time, again. 
+On June 3rd, patches became available. Soon after that, a proof of concept became available, resulting in the spread of malware. Attackers have placed crypto miners, Mirai botnet agents, and web shells on servers. Greynoise.io found 350 unique IP addresses that were scanning for this vulnerability. 349 of them were marked ‘malicious’, the only benign one was DIVD’s IP address. DIVD-volunteers found ‘high-level targets’ like banks, transport companies, telcos, military software companies, and data centers. It was a race against time, again.
 
-On June 4th, the DIVD sent 18469 notification emails to Internet Service Providers or server owners. Most servers were found in the US and Germany (see figure). The Dutch part of the data was shared with NSM (Het Nederlands Security Meldpunt) and the Dutch Digital Trust Center (DTC), which informed affected Dutch companies.
+On June 4th, the DIVD sent 18469 notification emails to Internet Service Providers or server owners. Most servers were found in the US and Germany (see Pie Chart). The Dutch part of the data was shared with NSM (Het Nederlands Security Meldpunt) and the Dutch Digital Trust Center (DTC), which informed affected Dutch companies.
 
+![](/uploads/confluence_graph.png)
 
 On June 6th still 1088 hosts were vulnerable.
 
