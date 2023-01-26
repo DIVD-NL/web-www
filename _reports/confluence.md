@@ -35,8 +35,7 @@ November 5th the DIVD found still 540 vulnerable hosts. DIVD sent notifications 
 
 ## **Links**
 
-
-
+[**https://csirt.divd.nl/DIVD-2022-00033**](https://csirt.divd.nl/DIVD-2022-00033)
 
 [https://www.volexity.com/blog/2022/06/02/zero-day-exploitation-of-atlassian-confluence/](https://www.volexity.com/blog/2022/06/02/zero-day-exploitation-of-atlassian-confluence/ "https://www.volexity.com/blog/2022/06/02/zero-day-exploitation-of-atlassian-confluence/")
 
