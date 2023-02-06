@@ -1,14 +1,10 @@
 ---
 layout: default
-title: partners
-header: partners
+title: Friends
+header: Friends
 
 ---
-<header>
-<h2>Partners</h2>
-</header>
-DIVD is a non-profit organisation run by volunteers and a network of likeminded organisations who we share knowledge with or support us financially:
-<hr>
+<header> <h2>Friends</h2> </header> DIVD is a non-profit organisation run by volunteers and a network of likeminded organisations who we share knowledge with or support us financially: <hr>
 
 ### A2B Internet
 
