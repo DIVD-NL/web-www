@@ -2,9 +2,10 @@
 layout: default
 title: contact
 header: contact
+
 ---
 <header>
-	<h2>Not a regular office</h2>
+<h2>Not a regular office</h2>
 </header>
 
 We are a network of security researchers who mainly work online. If you want to contact us, you can send us an e mail to "question" at divd nl or use our [contact form](https://form.jotform.com/221683503984058).
@@ -14,10 +15,13 @@ You can also meet us at cyber security conferences and hacker events or just fol
 For questions related to our CSIRT you can email "csirt" at divd nl.
 
 ## Want to help?
+
 The Dutch Institute for Vulnerability Disclosure is always looking for new volunteers. On our website, you can discover which type of volunteer work suits you best and read the experiences of others. Do you also want to make the digital world a safer place? Then please [signup](https://form.jotform.com/221242784790055) as a volunteer.
 
 <hr>
+
 ### Address
+
 We have a flexible workplace:<br>
 Maanweg 174<br>
 2516 AB Den Haag<br>
@@ -33,8 +37,9 @@ The reason why someone behaves in this way is also irrelevant in determining whe
 That is one of the reasons why DIVD has appointed two confidential advisors. A central point of contact to ensure that the way in which we interact within the institute remains professional, fun, and safe. Within the institute, the confidential counselors are the point of contact for anyone who is dealing with transgressive or sexually intimidating behavior and who wants to talk to someone about it.
 
 The confidential advisors at DIVD are:
+
 * [Jan Los](/people/Jan%20Los/)
-* [Nikola Diete](/people/Nikola%20Diete/)
+* [Kato Vierbergen]()
 
 Both can be reached via [vertrouwenspersoon@divd.nl](mailto:vertrouwenspersoon@divd.nl)
 
