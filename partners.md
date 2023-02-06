@@ -4,7 +4,7 @@ title: Friends
 header: Friends
 
 ---
-<header> <h2>Friends</h2> </header> DIVD is a non-profit organisation run by volunteers and a network of likeminded organisations who we share knowledge with or support us financially: <hr>
+<header> <h2>Friends</h2> </header> DIVD is a non-profit organisation run by volunteers and a network of likeminded organisations who we share knowledge with or support us financially: 
 
 ### A2B Internet
 
