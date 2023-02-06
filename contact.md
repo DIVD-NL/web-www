@@ -39,7 +39,7 @@ That is one of the reasons why DIVD has appointed two confidential advisors. A c
 The confidential advisors at DIVD are:
 
 * [Jan Los](/people/Jan%20Los/)
-* [Kato Vierbergen]()
+* Kato Vierbergen
 
 Both can be reached via [vertrouwenspersoon@divd.nl](mailto:vertrouwenspersoon@divd.nl)
 
