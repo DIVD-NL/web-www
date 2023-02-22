@@ -4,7 +4,7 @@ title: Friends
 header: Friends
 
 ---
-<header> <h2>Friends</h2> </header> DIVD is a non-profit organisation run by volunteers and a network of likeminded organisations who we share knowledge with or support us financially: 
+<header> <h2>Friends</h2> </header> DIVD is a non-profit organisation run by volunteers and a network of likeminded organisations who we share knowledge with or support us financially:
 
 ### A2B Internet
 
@@ -45,6 +45,10 @@ We have our office at LunaVia, which also help us out with administrative tasks 
 ### Protect4S
 
 [Protect4S](https://www.protect4s.com/) has supported DIVD with expertise on the security of SAP systems and resources to scan the internet for vulnerabilities related to SAP systems
+
+### Schouten Zekerheid
+
+[Schouten Zekerheid](https://www.schoutenzekerheid.nl/) Makelaars in Assurantiën is our insurance intermediary and supports us and our cause”
 
 ### SIDN Fund
 
