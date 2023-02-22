@@ -15,23 +15,19 @@ published: false
 
 ---
 
-On December 3rd .. found a zero-day vulnerability in Grafana, a popular open source analytics tool to create interactive graphs and dashboards. suffered from an Unauthenticated Directory Traversal vulnerability. 
+On December 2nd Dutch security researcher Jordy Versmissen sent a report to Grafana Labs, a company that created a popular open source analytics tool to create interactive graphs and dashboards. Versmissen found a zero-day vulnerability in Grafana Enterprise versions v8.0.0-beta1 to v8.3.0 a . An attacker could use a Directory Traversal Vulnerability to get unautorised access to local files.
 
-that enabled remote access to local files
+On December 7 the vulnerability leaked. Proof-of-concepts (PoC) to exploit the bug to become available on Twitter and GitHub.
 
-This vulnerability, known under [CVE-2021-43798](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-43798), was discovered on the 3rd of december of 2021 and publicly released on the 7th of that month. 
+Emergency releases were created for versions and several new releases after v8.3.0 have been published. 
 
-Versions v8.0.0-beta1 to v8.3.0 are found to be vulnerable in their default configuration. 
+januari 9h DIVD found 10500 vulnerable instances on Shodan. An own scan on January 10th resulted in a last of 8.486 confirmed vulnerable systems.
 
-Emergency releases were created and several new releases after v8.3.0 have been published. An attacker exploiting this vulnerability can read local and most likely sensitive files, such as usernames and possibly cleartext credentials from local configuration files.
+A scan on february 6th found 6571 still vulnerable
 
-januari 9h DIVD found 10500 vulnerable instances on Shodan.
+March 1 there were 2180 vulnerable systems
 
-February 6th 6571 vulnerable
-
-March 1 2180 vulnerable.
-
-## Timeline
+Timeline
 
 | Date | Description |
 | --- | --- |
@@ -57,3 +53,5 @@ First version of this case file. :  milestone, 2022-01-18, 0d
 DIVD sent out a first batch of notifications. :  milestone, 2022-01-18, 0d
 DIVD sent out a second batch of notifications. :  milestone, 2022-02-06, 0d
 </div>
+
+Links
