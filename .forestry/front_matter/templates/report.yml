@@ -59,6 +59,7 @@ fields:
 pages:
 - _reports/confluence.md
 - _reports/gitlab-graphql-api-user-enumeration.md
+- _reports/grafana.md
 - _reports/greynoise-s-ukraine-only-list.md
 - _reports/n-able.md
 - _reports/odd-microsoft-certificate.md
