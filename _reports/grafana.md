@@ -27,21 +27,18 @@ Grafana, a popular open source analytics tool to create interactive graphs and d
 | 18 Jan 2022 | DIVD sent out a first batch of notifications. |
 | 06 Feb 2022 | DIVD sent out a second batch of notifications. |
 
-1 Jan 2022 1 Feb 2022 1 Mar 2022 1 Apr 2022 1 May 2022 1 Jun 2022 1 Jul 2022 1 Aug 2022 1 Sep 2022 1 Oct 2022 1 Nov 2022Vulnerability reported to Grafana. DIVD-2022-00002 - Grafana (335 days) Emergency patches released and full public release. DIVD created a list of vulnerable Grafana instances. First version of this case file. DIVD sent out a first batch of notifications. DIVD sent out a second batch of notifications. CaseEvents
-
-    <div class="mermaid">
-    	gantt
-    	    title DIVD-2022-00002 - Grafana
-    	    dateFormat  YYYY-MM-DD
-    	    axisFormat  %e %b %Y
-    	    section Case
-    	    DIVD-2022-00002 - Grafana (335 days)            :2021-12-07, 2022-11-07
-    	    section Events
-    		Vulnerability reported to Grafana. :  milestone, 2021-12-03, 0d
-    				Emergency patches released and full public release. :  milestone, 2021-12-07, 0d
-    				DIVD created a list of vulnerable Grafana instances. :  milestone, 2022-01-10, 0d
-    				First version of this case file. :  milestone, 2022-01-18, 0d
-    				DIVD sent out a first batch of notifications. :  milestone, 2022-01-18, 0d
-    				DIVD sent out a second batch of notifications. :  milestone, 2022-02-06, 0d
-    				</div>
-    
+<div class="mermaid">
+	gantt
+	    title DIVD-2022-00002 - Grafana
+	    dateFormat  YYYY-MM-DD
+	    axisFormat  %e %b %Y
+	    section Case
+	    DIVD-2022-00002 - Grafana (335 days)            :2021-12-07, 2022-11-07
+	    section Events
+		Vulnerability reported to Grafana. :  milestone, 2021-12-03, 0d
+				Emergency patches released and full public release. :  milestone, 2021-12-07, 0d
+				DIVD created a list of vulnerable Grafana instances. :  milestone, 2022-01-10, 0d
+				First version of this case file. :  milestone, 2022-01-18, 0d
+				DIVD sent out a first batch of notifications. :  milestone, 2022-01-18, 0d
+				DIVD sent out a second batch of notifications. :  milestone, 2022-02-06, 0d
+				</div>
