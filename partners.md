@@ -48,7 +48,7 @@ We have our office at LunaVia, which also help us out with administrative tasks 
 
 ### Schouten Zekerheid
 
-[Schouten Zekerheid](https://www.schoutenzekerheid.nl/) Makelaars in Assurantiën is our insurance intermediary and supports us and our cause”
+[Schouten Zekerheid](https://www.schoutenzekerheid.nl/) Makelaars in Assurantiën is our insurance intermediary and supports us and our cause
 
 ### SIDN Fund
 
