@@ -7,7 +7,8 @@ case: DIVD_2021-00006
 author: Gerard Janssen
 lead: Lennaert Oudshoorn
 csirt: []
-researchers: []
+researchers:
+- Wietse Boonstra
 excerpt: DIVD researcher found multiple vulnerabilities in SmarterMail
 published: false
 
