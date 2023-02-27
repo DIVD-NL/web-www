@@ -14,17 +14,17 @@ excerpt: Vulnerability in Grafana analytics tool
 published: false
 
 ---
-On December 2nd Dutch security researcher Jordy Versmissen sent a report to Grafana Labs, a company that created a popular open source analytics tool to create interactive graphs and dashboards. Versmissen found a zero-day vulnerability in Grafana Enterprise versions v8.0.0-beta1 to v8.3.0. An attacker could use a Directory Traversal Vulnerability to get unautorised access to local files.
+On December 2, Dutch security researcher Jordy Versmissen sent a report to Grafana Labs, a company that created a popular open source analytics tool. Versmissen found a zero-day vulnerability in Grafana Enterprise versions v8.0.0-beta1 to v8.3.0. An attacker could use a Directory Traversal Vulnerability to gain unauthorized access to local files.
 
-On December 7th, the vulnerability leaked. Proof-of-concepts (PoC) to exploit the bug to become available on Twitter and GitHub.
+The vulnerability was leaked on December 7. Proofs of concept (PoC) to exploit the bug are becoming available on Twitter and GitHub.
 
-Emergency releases were created for versions and several new releases after v8.3.0 have been published.
+Grafana produced emergency releases and new releases after v8.3.0.
 
-januari 9th DIVD found 10500 vulnerable instances on Shodan. An own scan on January 10th resulted in a last of 8.486 confirmed vulnerable systems.The owners of these systems were notified.
+On January 9, the DIVD found 10,500 vulnerable bodies on Shodan. A scan on January 10 returned a list of 8,486 confirmed vulnerable systems. The owners of these systems have been notified.
 
-A scan on february 6th found 6571 still vulnerable. The DIVD sent out a second batch of notifications.
+A scan on February 6 found that 6571 were still vulnerable. The DIVD has sent a second series of reports.
 
-March 1 there were still 2180 vulnerable systems.
+On March 1, there were still 2180 vulnerable systems. This case was closed on November 7.
 
 
 
