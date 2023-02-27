@@ -11,7 +11,6 @@ researchers:
 - Diego Klinkhamer
 - Tom Wolters
 excerpt: Vulnerability in Grafana analytics tool
-published: false
 
 ---
 On December 2, Dutch security researcher Jordy Versmissen sent a report to Grafana Labs, a company that created a popular open source analytics tool. Versmissen found a zero-day vulnerability in Grafana Enterprise versions v8.0.0-beta1 to v8.3.0. An attacker could use a Directory Traversal Vulnerability to gain unauthorized access to local files.
