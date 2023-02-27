@@ -27,11 +27,7 @@ A scan on February 6 found that 6571 were still vulnerable. The DIVD has sent a 
 On March 1, there were still 2180 vulnerable systems. This case was closed on November 7.
 
 
-
-
 ## **Timeline**
-
-Timeline
 
 | Date | Description |
 | --- | --- |
@@ -67,4 +63,3 @@ DIVD sent out a second batch of notifications. :  milestone, 2022-02-06, 0d
 [https://labs.detectify.com/2021/12/15/zero-day-path-traversal-grafana/](https://labs.detectify.com/2021/12/15/zero-day-path-traversal-grafana/ "https://labs.detectify.com/2021/12/15/zero-day-path-traversal-grafana/")
 
 [https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-43798](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-43798 "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-43798")
-
