@@ -16,15 +16,34 @@ published: false
 ---
 On December 2nd Dutch security researcher Jordy Versmissen sent a report to Grafana Labs, a company that created a popular open source analytics tool to create interactive graphs and dashboards. Versmissen found a zero-day vulnerability in Grafana Enterprise versions v8.0.0-beta1 to v8.3.0. An attacker could use a Directory Traversal Vulnerability to get unautorised access to local files.
 
-On December 7 the vulnerability leaked. Proof-of-concepts (PoC) to exploit the bug to become available on Twitter and GitHub.
+On December 7th, the vulnerability leaked. Proof-of-concepts (PoC) to exploit the bug to become available on Twitter and GitHub.
 
 Emergency releases were created for versions and several new releases after v8.3.0 have been published.
 
-januari 9th DIVD found 10500 vulnerable instances on Shodan. An own scan on January 10th resulted in a last of 8.486 confirmed vulnerable systems.The owners of these systems were notified. 
+januari 9th DIVD found 10500 vulnerable instances on Shodan. An own scan on January 10th resulted in a last of 8.486 confirmed vulnerable systems.The owners of these systems were notified.
 
 A scan on february 6th found 6571 still vulnerable. The DIVD sent out a second batch of notifications.
 
-March 1 there were 2180 vulnerable systems
+March 1 there were still 2180 vulnerable systems.
+
+## **Links**
+
+[https://csirt.divd.nl/cases/DIVD-2022-00002/](https://csirt.divd.nl/cases/DIVD-2022-00002/ "https://csirt.divd.nl/cases/DIVD-2022-00002/")
+
+[https://www.volexity.com/blog/2022/06/02/zero-day-exploitation-of-atlassian-confluence/](https://www.volexity.com/blog/2022/06/02/zero-day-exploitation-of-atlassian-confluence/ "https://www.volexity.com/blog/2022/06/02/zero-day-exploitation-of-atlassian-confluence/")
+
+[https://www.rapid7.com/blog/post/2022/06/02/active-exploitation-of-confluence-cve-2022-26134/](https://www.rapid7.com/blog/post/2022/06/02/active-exploitation-of-confluence-cve-2022-26134/ "https://www.rapid7.com/blog/post/2022/06/02/active-exploitation-of-confluence-cve-2022-26134/")
+
+[https://confluence.atlassian.com/doc/confluence-security-advisory-2022-06-02-1130377146.html](https://confluence.atlassian.com/doc/confluence-security-advisory-2022-06-02-1130377146.html "https://confluence.atlassian.com/doc/confluence-security-advisory-2022-06-02-1130377146.html")
+
+Links
+
+https://labs.detectify.com/2021/12/15/zero-day-path-traversal-grafana/
+https://grafana.com/blog/2021/12/08/an-update-on-0day-cve-2021-43798-grafana-directory-traversal/
+https://csirt.divd.nl/cases/DIVD-2022-00002/
+https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-43798
+
+## **Timeline**
 
 Timeline
 
@@ -53,8 +72,3 @@ DIVD sent out a first batch of notifications. :  milestone, 2022-01-18, 0d
 DIVD sent out a second batch of notifications. :  milestone, 2022-02-06, 0d
 </div>
 
-Links
-
-https://grafana.com/blog/2021/12/08/an-update-on-0day-cve-2021-43798-grafana-directory-traversal/
-https://csirt.divd.nl/cases/DIVD-2022-00002/
-https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-43798
