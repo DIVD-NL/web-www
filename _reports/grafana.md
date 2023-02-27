@@ -29,8 +29,7 @@ March 1 there were still 2180 vulnerable systems.
 ## **Links**
 
 [https://csirt.divd.nl/cases/DIVD-2022-00002/](https://csirt.divd.nl/cases/DIVD-2022-00002/ "https://csirt.divd.nl/cases/DIVD-2022-00002/")
-
-[https://www.volexity.com/blog/2022/06/02/zero-day-exploitation-of-atlassian-confluence/](https://www.volexity.com/blog/2022/06/02/zero-day-exploitation-of-atlassian-confluence/ "https://www.volexity.com/blog/2022/06/02/zero-day-exploitation-of-atlassian-confluence/")
+[https://labs.detectify.com/2021/12/15/zero-day-path-traversal-grafana/](https://labs.detectify.com/2021/12/15/zero-day-path-traversal-grafana/ "https://labs.detectify.com/2021/12/15/zero-day-path-traversal-grafana/")
 
 [https://www.rapid7.com/blog/post/2022/06/02/active-exploitation-of-confluence-cve-2022-26134/](https://www.rapid7.com/blog/post/2022/06/02/active-exploitation-of-confluence-cve-2022-26134/ "https://www.rapid7.com/blog/post/2022/06/02/active-exploitation-of-confluence-cve-2022-26134/")
 
