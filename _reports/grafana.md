@@ -26,22 +26,8 @@ A scan on february 6th found 6571 still vulnerable. The DIVD sent out a second b
 
 March 1 there were still 2180 vulnerable systems.
 
-## **Links**
 
-[https://csirt.divd.nl/cases/DIVD-2022-00002/](https://csirt.divd.nl/cases/DIVD-2022-00002/ "https://csirt.divd.nl/cases/DIVD-2022-00002/")
 
-[https://labs.detectify.com/2021/12/15/zero-day-path-traversal-grafana/](https://labs.detectify.com/2021/12/15/zero-day-path-traversal-grafana/ "https://labs.detectify.com/2021/12/15/zero-day-path-traversal-grafana/")
-
-[https://www.rapid7.com/blog/post/2022/06/02/active-exploitation-of-confluence-cve-2022-26134/](https://www.rapid7.com/blog/post/2022/06/02/active-exploitation-of-confluence-cve-2022-26134/ "https://www.rapid7.com/blog/post/2022/06/02/active-exploitation-of-confluence-cve-2022-26134/")
-
-[https://confluence.atlassian.com/doc/confluence-security-advisory-2022-06-02-1130377146.html](https://confluence.atlassian.com/doc/confluence-security-advisory-2022-06-02-1130377146.html "https://confluence.atlassian.com/doc/confluence-security-advisory-2022-06-02-1130377146.html")
-
-Links
-
-https://labs.detectify.com/2021/12/15/zero-day-path-traversal-grafana/
-https://grafana.com/blog/2021/12/08/an-update-on-0day-cve-2021-43798-grafana-directory-traversal/
-https://csirt.divd.nl/cases/DIVD-2022-00002/
-https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-43798
 
 ## **Timeline**
 
@@ -71,4 +57,14 @@ First version of this case file. :  milestone, 2022-01-18, 0d
 DIVD sent out a first batch of notifications. :  milestone, 2022-01-18, 0d
 DIVD sent out a second batch of notifications. :  milestone, 2022-02-06, 0d
 </div>
+
+## **Links**
+
+[https://csirt.divd.nl/cases/DIVD-2022-00002/](https://csirt.divd.nl/cases/DIVD-2022-00002/ "https://csirt.divd.nl/cases/DIVD-2022-00002/")
+
+[https://labs.detectify.com/2021/12/15/zero-day-path-traversal-grafana/](https://labs.detectify.com/2021/12/15/zero-day-path-traversal-grafana/ "https://labs.detectify.com/2021/12/15/zero-day-path-traversal-grafana/")
+
+[https://labs.detectify.com/2021/12/15/zero-day-path-traversal-grafana/](https://labs.detectify.com/2021/12/15/zero-day-path-traversal-grafana/ "https://labs.detectify.com/2021/12/15/zero-day-path-traversal-grafana/")
+
+[https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-43798](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-43798 "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-43798")
 
