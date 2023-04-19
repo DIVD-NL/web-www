@@ -10,7 +10,6 @@ csirt: []
 researchers:
 - Wietse Boonstra
 excerpt: DIVD researcher found multiple vulnerabilities in SmarterMail
-published: false
 
 ---
 A DIVD researcher found multiple vulnerabilities in SmarterMail.  Both vulnerabilities were discovered within the webmail fronted of SmarterMail.The DIVD notified SmarterTools Inc. of the following vulnerabilities:
