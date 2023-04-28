@@ -7,6 +7,7 @@ header: ANBI
 <header>
 <h2>ANBI</h2>
 </header>
+![ANBI logo](/images/ANBI.jpg)
 
 STICHTING DUTCH INSTITUTE FOR VULNERABILITY DISCLOSURE (DIVD)
 
@@ -14,7 +15,7 @@ Adres: Maanweg 174
 Postcode: 2516 AB  
 Plaats: Den Haag  
 Tel: (+31) 70 41 90 309  
-E-mail: contact(at)divd.nl
+E-mail: question(at)divd.nl
 
 RSIN: 860456961
 
@@ -26,7 +27,11 @@ Doel van DIVD: We streven ernaar de digitale wereld veiliger te maken door kwets
 
 * [Overzicht bestuursleden](/uploads/uittreksel_handelsregister_75957345.pdf "Overzicht bestuursleden")
 
+#### Beloningsbeleid
+
+Bestuursleden zijn vrijwilligers en krijgen voor hun werkzaamheden geen vergoeding.
+
 #### Documents
 
-* [Beleidsplan DIVD](/uploads/Beleidsplan-DIVD-v27-12-2021.pdf) 
-* Jaarplan 2021
+* [Jaarverslag 2022](/uploads/DIVD%20jaarverslag%202022.pdf)
+* [Jaarverslag 2021](/uploads/DIVD%20jaarverslag%202021.pdf)
