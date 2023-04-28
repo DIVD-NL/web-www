@@ -19,6 +19,8 @@ E-mail: question(at)divd.nl
 
 RSIN: 860456961
 
+KvK: 75957345
+
 Website: [https://www.divd.nl](https://www.divd.nl "https://www.divd.nl")
 
 Doel van DIVD: We streven ernaar de digitale wereld veiliger te maken door kwetsbaarheden die we vinden in digitale systemen te melden aan de mensen die ze kunnen repareren. We hebben een wereldwijd bereik, maar doen het op zijn Hollands: open, eerlijk, samen en gratis.
