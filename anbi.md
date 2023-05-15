@@ -29,7 +29,6 @@ Bestuursleden zijn vrijwilligers en krijgen voor hun werkzaamheden geen vergoedi
 
 #### Documents
 
-* [Jaarverslag 2022](/uploads/DIVD%20jaarverslag%202022.pdf)
 * [Jaarverslag 2021](/uploads/DIVD%20jaarverslag%202021.pdf)
 * [Standaardformulier ANBI](/uploads/Standaardformulier%20ANBI.pdf)
 
