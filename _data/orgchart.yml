@@ -36,7 +36,7 @@ teams:
   - id: helpdesk-2baaf62
     name: Helpdesk
     description: |
-      When you have IT, you have IT problems. When you have organisation of hackers you have even more interesting problems. Team helpdesk is here to help. 
+      When you have IT, you have IT problems. When you have an organisation of hackers you have even more interesting problems. Team helpdesk is here to help. 
   - id: communications-6595f95b
     name: Communications
     show_members: true
