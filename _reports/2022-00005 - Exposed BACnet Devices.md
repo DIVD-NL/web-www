@@ -25,6 +25,16 @@ An exposed BACnet port also increases the attack surface of the Siemens systems,
 The unintended exposure of BACnet ports poses potential security threats and may open the door to unauthorized access to essential building infrastructure.
 In our initial investigation, we used Shodan to explore BACnet-port 47808. The search revealed a total of 29,736 systems were exposed. Following this, we conducted a scan and found 12,572 vulnerable BACnet systems. The respective owners of these systems were promptly notified and provided with strategic advice to restrict access to their BACnet controllers.
 
+## **Timeline**
+
+| --- | --- |
+| Date | Description |
+| 22 Dec 2021 | Discovery of open BACnet devices |
+| 05 Jan 2022 | First scan |
+| 29 Jan 2022 | Case opened |
+| 08 Feb 2022 | DIVD starts first round of notifications |
+| 01 Apr 2022 | Case closed |
+
 <div class="mermaid">
 	gantt
 	    title DIVD-2022-00005 - Exposed BACnet devices
