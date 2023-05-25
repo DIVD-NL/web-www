@@ -14,19 +14,6 @@ researchers:
 excerpt: Exposed BACnet ports
 start: 2022-01-29
 end:
-timeline:
-- start: 2021-12-22
-  end:
-  event:  Discovery of open BACnet devices.
-- start: 2022-01-05
-  end:
-  event:  Scanning the public interface to collect instances.
-- start: 2022-01-29
-  end:
-  event:  Case Opened
-- start: 2022-02-08
-  end:
-  event:  DIVD starts first round of notifications.
 ips: 12571
 ---
 During the process of conducting vulnerability scans focused on the Log4J vulnerability, the DIVD discovered numerous Siemens systems that exposed the BACnet protocol via an unsecured port.
