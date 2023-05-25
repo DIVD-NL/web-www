@@ -14,7 +14,6 @@ researchers:
 excerpt: Exposed BACnet ports
 start: 2022-01-29
 end:
-ips: 12571
 ---
 During the process of conducting vulnerability scans focused on the Log4J vulnerability, the DIVD discovered numerous Siemens systems that exposed the BACnet protocol via an unsecured port.
 
