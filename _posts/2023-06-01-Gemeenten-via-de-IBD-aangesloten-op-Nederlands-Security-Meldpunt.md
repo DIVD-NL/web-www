@@ -19,7 +19,7 @@ Nathan Ducastel, directeur van VNG Realisatie, ziet veel voordelen aan de samenw
 
 Gemeenten beter helpen
 
-Ook Chris van ‘t Hof, directeur van het Dutch Institute for Vulnerability Disclosure (DIVD) is erg blij met de samenwerking tussen het Nederlands Security Meldpunt en de IBD. “Met deze samenwerking kunnen we ook gemeenten beter helpen hun kwetsbaarheden te fixen. Ze krijgen nu al meldingen van ons via NSM, maar de IBD geniet toch meer bekendheid onder gemeenten waardoor ze wellicht eerder in actie komen.” Verder hoop ik dat we dan ook meer feedback krijgen op onze meldingen via de IBD”
+Ook Chris van ‘t Hof, directeur van het Dutch Institute for Vulnerability Disclosure (DIVD) is erg blij met de samenwerking tussen het Nederlands Security Meldpunt en de IBD. “Met deze samenwerking kunnen we ook gemeenten beter helpen hun kwetsbaarheden te fixen. Ze krijgen nu al meldingen van ons via NSM, maar de IBD geniet toch meer bekendheid onder gemeenten waardoor ze wellicht eerder in actie komen. Verder hoop ik dat we dan ook meer feedback krijgen op onze meldingen via de IBD”
 
 Over de IBD
 ---
