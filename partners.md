@@ -42,7 +42,7 @@ Dave Maasland, CEO of [ESET](https://www.eset.com/nl/) sponsored DIVD in 2021 by
 
 We have our office at LunaVia, which also help us out with administrative tasks and acquiring funding for our DIVD Academy.
 
-## Passbolt
+### Passbolt
 
 [Passbolt](https://www.passbolt.com/) has been sponsoring the pro subscription for DIVD since 2021.
 
