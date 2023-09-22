@@ -36,7 +36,7 @@ DIVD heeft onderzoek gedaan naar deze activiteiten en in het huis van bewaring e
 
 Naar aanleiding van activiteit 3 is DIVD tot de conclusie gekomen dat dit te rijmen valt met de DIVD zaak waar betrokkene op dat moment bij betrokken was ([DIVD-2022-00055](https://csirt.divd.nl/DIVD-2022-00055/)). We beschouwen deze activiteit als verklaard en niet verdacht.
 
-In het gesprek met de verdachte over activiteit 1 en 2, heeft hij ons redelijke verklaringen gegeven voor deze acties. Ongeacht het feit of deze verklaringen geloofwaardig zijn of niet, zijn deze twee acties op zichzelf geen schending van de Code of Conduct en doen zij geen afbreuk aan de de conclusie van Fox-IT dat er geen sporen zijn waaruit het aannemelijk wordt dat de DIVD Code of Conduct door hem is geschonden.
+In het gesprek met de verdachte over activiteit 1 en 2, heeft hij ons redelijke verklaringen gegeven voor deze acties. Ongeacht het feit of deze verklaringen geloofwaardig zijn of niet, zijn deze twee acties op zichzelf geen schending van de Code of Conduct en doen zij geen afbreuk aan de conclusie van Fox-IT dat er geen sporen zijn waaruit het aannemelijk wordt dat de DIVD Code of Conduct door hem is geschonden.
 
 Op basis van het Fox-IT onderzoek en onze eigen vervolg op dit onderzoek, concluderen we dat er geen bewijs is dat de verdachte misbruik heeft gemaakt van DIVD systemen of informatie.
 
