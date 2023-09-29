@@ -4,6 +4,7 @@ title: Inge Bryan nieuwe bestuursvoorzitter DIVD
 author: DIVD
 excerpt: "Met trots en plezier maken we bekend dat Inge Bryan de nieuwe bestuursvoorzitter is van het Dutch Institute for Vulnerability Disclosure. Ze neem deze rol over van Astrid Oosenbrug. Astrid legt de voorzittershamer neer om zich meer te gaan richten op de ontwikkeling van de DIVD Academy."
 image: "/images/news/inge_en_astrid.jpg"
+imagealt: "Astrid draagt voorzittershamer over aan Inge"
 ---
 Met trots en plezier maken we bekend dat [Inge Bryan](https://www.linkedin.com/in/inge-bryan/) de nieuwe bestuursvoorzitter is van [het Dutch Institute for Vulnerability Disclosure](https://www.divd.nl). Ze neem deze rol over van [Astrid Oosenbrug](https://www.linkedin.com/in/astridoosenbrug/). Astrid legt de voorzittershamer neer om zich meer te gaan richten op de ontwikkeling van de [DIVD Academy](https://divd.academy/).
 

@@ -6,8 +6,8 @@ layout: default
 	{{ page.date | date_to_long_string }}, by {{ page.author | default: "anonymous" }}
 </div>
 <br>
-{% if page.image != "" %}
-		<img class='newspicture' src='{{ page.image }}'>
+{% if page.image %}
+		<img class='newspicture' src='{{ page.image }}' alt='{% if page.imagealt %}{{ page.imagealt }}{% else %}Image that illustrates news story{% endif %}'>
 {%endif%}
 {{ content }}
 <hr>
