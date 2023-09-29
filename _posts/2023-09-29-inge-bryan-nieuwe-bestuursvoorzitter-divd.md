@@ -6,7 +6,7 @@ excerpt: "Met trots en plezier maken we bekend dat Inge Bryan de nieuwe bestuurs
 image: "/images/news/inge_en_astrid.jpg"
 imagealt: "Astrid draagt voorzittershamer over aan Inge"
 ---
-Met trots en plezier maken we bekend dat [Inge Bryan](https://www.linkedin.com/in/inge-bryan/) de nieuwe bestuursvoorzitter is van [het Dutch Institute for Vulnerability Disclosure](https://www.divd.nl). Ze neem deze rol over van [Astrid Oosenbrug](https://www.linkedin.com/in/astridoosenbrug/). Astrid legt de voorzittershamer neer om zich meer te gaan richten op de ontwikkeling van de [DIVD Academy](https://divd.academy/).
+Met trots en plezier maken we bekend dat [Inge Bryan](https://www.linkedin.com/in/inge-bryan/) de nieuwe bestuursvoorzitter is van [het Dutch Institute for Vulnerability Disclosure](https://www.divd.nl). Ze neemt deze rol over van [Astrid Oosenbrug](https://www.linkedin.com/in/astridoosenbrug/). Astrid legt de voorzittershamer neer om zich meer te gaan richten op de ontwikkeling van de [DIVD Academy](https://divd.academy/).
 
 Inge Bryan is een leading lady in de wereld van CyberSecurity. Ze maakte carrière bij de politie. Stapte over naar Deloitte waar ze partner werd en de afgelopen twee jaar was ze managing director van Fox-IT in Delft. Daarnaast is ze mede-oprichter van [AAN, het Anti-Abuse Network](https://www.abuse.nl). 
 
