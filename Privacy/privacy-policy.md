@@ -1,5 +1,4 @@
 ---
-layout: news
 title: Privacy Policy
 author: DIVD
 excerpt: |
@@ -7,7 +6,9 @@ excerpt: |
   Date: December 18, 2022
 
 ---
-<header> <h2>Privacy Policy</h2> </header> This page lists our publicly available documents focussing on policies and visions.
+## Privacy Policy
+
+This page lists our publicly available documents focussing on policies and visions.
 
 ## Introduction
 

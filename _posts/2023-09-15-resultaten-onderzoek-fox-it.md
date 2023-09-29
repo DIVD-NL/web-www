@@ -1,6 +1,5 @@
-![image](https://github.com/DIVD-NL/web-www/assets/322518/a8a67095-3bc8-4da7-857d-3b91b85e309f)
 ---
-layout: post
+layout: news
 title: Resultaten Fox-IT onderzoek n.a.v. arrestatie DIVD vrijwilliger
 author: DIVD
 excerpt: "Conclusie: “...geen sporen aangetroffen waaruit aannemelijk wordt dat de DIVD Code of Conduct door betrokkene is geschonden.””

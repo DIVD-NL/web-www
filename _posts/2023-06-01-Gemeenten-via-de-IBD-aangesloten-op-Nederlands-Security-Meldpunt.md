@@ -1,6 +1,6 @@
 ---
 title: Gemeenten via de IBD aangesloten op het Nederlands Security Meldpunt
-layout: post
+layout: news
 author: Chris van 't Hof
 excerpt: "De Informatiebeveiligingsdienst (IBD) van de Vereniging van Nederlandse gemeenten (VNG) sluit aan bij het Nederlands Security Meldpunt. Door deze samenwerking komen meldingen van ethisch hackers en onderzoekers sneller op de juiste plek terecht.
 "
