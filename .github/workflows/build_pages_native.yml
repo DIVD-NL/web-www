@@ -67,4 +67,9 @@ jobs:
           channel: communications
           status: FAILED
           color: danger
+      - name: Deploy GiutHub pages
+        uses: JamesIves/github-pages-deploy-action@v4
+#        if:   ${{ github.ref == 'refs/heads/main' }}  # && ( success() || failure() )  # Remove the && clause when a HTML check is flawless
+        with:
+          folder: admin # The folder the action should deploy.      
 
