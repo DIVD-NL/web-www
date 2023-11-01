@@ -76,3 +76,4 @@ exclude:
   - "_config_livereload.yml"
   - "csirt.divd.nl"
   - "vendor"
+  - "admin"
