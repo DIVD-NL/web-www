@@ -25,7 +25,6 @@ collections: # A list of collections the CMS should be able to edit
         file: "join.md"
         fields:
           - {label: Title,        name: title,        widget: string }
-          - {label: Description,  name: description,  widget: string }
           - {label: Layout,       name: layout,       widget: hidden,   default: default }
           - {label: Body,         name: body,         widget: markdown }
       - label: "Donate"
@@ -34,6 +33,7 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - {label: Title,        name: title,        widget: string }
           - {label: Layout,       name: layout,       widget: hidden,   default: default }
+          - {label: Scripts,      name: scripts,      widget: list,     default: ["supp.js]"}
           - {label: Body,         name: body,         widget: markdown }
       - label: "News"
         name: "news"
@@ -47,7 +47,6 @@ collections: # A list of collections the CMS should be able to edit
         file: "partners.md"
         fields:
           - {label: Title,        name: title,        widget: string }
-          - {label: Description,  name: description,  widget: string }
           - {label: Layout,       name: layout,       widget: hidden,   default: default }
           - {label: Body,         name: body,         widget: markdown }
       - label: "Reports"
@@ -55,7 +54,6 @@ collections: # A list of collections the CMS should be able to edit
         file: "reports.md"
         fields:
           - {label: Title,        name: title,        widget: string }
-          - {label: Description,  name: description,  widget: string }
           - {label: Layout,       name: layout,       widget: hidden,   default: default }
           - {label: Body,         name: body,         widget: markdown }
       - label: "Team"
