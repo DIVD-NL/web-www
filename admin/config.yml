@@ -33,7 +33,7 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - {label: Title,        name: title,        widget: string }
           - {label: Layout,       name: layout,       widget: hidden,   default: default }
-          - {label: Scripts,      name: scripts,      widget: list,     default: ["supp.js]"}
+          - {label: Scripts,      name: scripts,      widget: list,     default: ["supp.js"]}
           - {label: Body,         name: body,         widget: markdown }
       - label: "News"
         name: "news"
