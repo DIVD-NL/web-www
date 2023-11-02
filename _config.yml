@@ -77,3 +77,4 @@ exclude:
   - "csirt.divd.nl"
   - "vendor"
   - "admin"
+  - "SECURITY.md"
