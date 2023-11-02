@@ -34,14 +34,14 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - {label: Title,        name: title,        widget: string }
           - {label: Layout,       name: layout,       widget: hidden,   default: default }
-          - {label: Body,         name: body,         widget: code }
+          - {label: Body,         name: body,         widget: markdown }
       - label: "News"
         name: "news"
         file: "news/index.html"
         fields:
           - {label: Title,        name: title,        widget: string }
           - {label: Layout,       name: layout,       widget: hidden,   default: default }
-          - {label: Body,         name: body,         widget: code }
+          - {label: Body,         name: body,         widget: markdown }
       - label: "Partners"
         name: "partners"
         file: "partners.md"
@@ -58,11 +58,6 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Description,  name: description,  widget: string }
           - {label: Layout,       name: layout,       widget: hidden,   default: default }
           - {label: Body,         name: body,         widget: markdown }
-      - label: "security.txt"
-        name: "security.txt"
-        file: "security.txt"
-        fields:
-          - {label: Body,         name: body,         widget: text }
       - label: "Team"
         name: "team"
         file: "team.html"
@@ -70,7 +65,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Title,        name: title,        widget: string }
           - {label: Header,       name: header,       widget: string }
           - {label: Layout,       name: layout,       widget: hidden,   default: default }
-          - {label: Body,         name: body,         widget: code }
+          - {label: Body,         name: body,         widget: markdown }
   - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Post" # Used in the UI, ie.: "New Post"
     folder: "_posts" # The path to the folder where the documents are stored
