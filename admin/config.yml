@@ -1,0 +1,96 @@
+publish_mode: editorial_workflow
+site_url: https://www.divd.nl
+backend:
+  name: github
+  repo: DIVD-NL/web-www
+  branch: main
+
+media_folder: /images
+public_folder: /uploads
+
+collections: # A list of collections the CMS should be able to edit
+  - label: "Pages"
+    name: "pages"
+    files:
+      - label: "Home"
+        name: "home"
+        file: "index.md"
+        fields:
+          - {label: Title,        name: title,        widget: string }
+          - {label: Description,  name: description,  widget: string }
+          - {label: Layout,       name: layout,       widget: hidden,   default: default }
+          - {label: Body,         name: body,         widget: markdown }
+      - label: "Join"
+        name: "join"
+        file: "join.md"
+        fields:
+          - {label: Title,        name: title,        widget: string }
+          - {label: Layout,       name: layout,       widget: hidden,   default: default }
+          - {label: Body,         name: body,         widget: markdown }
+      - label: "Donate"
+        name: "donate"
+        file: "donate/index.html"
+        fields:
+          - {label: Title,        name: title,        widget: string }
+          - {label: Layout,       name: layout,       widget: hidden,   default: default }
+          - {label: Scripts,      name: scripts,      widget: list,     default: ["supp.js]"}
+          - {label: Body,         name: body,         widget: markdown }
+      - label: "News"
+        name: "news"
+        file: "news/index.html"
+        fields:
+          - {label: Title,        name: title,        widget: string }
+          - {label: Layout,       name: layout,       widget: hidden,   default: default }
+          - {label: Body,         name: body,         widget: markdown }
+      - label: "Partners"
+        name: "partners"
+        file: "partners.md"
+        fields:
+          - {label: Title,        name: title,        widget: string }
+          - {label: Layout,       name: layout,       widget: hidden,   default: default }
+          - {label: Body,         name: body,         widget: markdown }
+      - label: "Reports"
+        name: "reports"
+        file: "reports.md"
+        fields:
+          - {label: Title,        name: title,        widget: string }
+          - {label: Layout,       name: layout,       widget: hidden,   default: default }
+          - {label: Body,         name: body,         widget: markdown }
+      - label: "Team"
+        name: "team"
+        file: "team.html"
+        fields:
+          - {label: Title,        name: title,        widget: string }
+          - {label: Header,       name: header,       widget: string }
+          - {label: Layout,       name: layout,       widget: hidden,   default: default }
+          - {label: Body,         name: body,         widget: markdown }
+  - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Post" # Used in the UI, ie.: "New Post"
+    folder: "_posts" # The path to the folder where the documents are stored
+    sort: "date:desc" # Default is title:asc
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields: # The fields each document in this collection have
+      - {label: "Layout", name: "layout", widget: "hidden", default: "news"}
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "reports"
+    label: "Reports" 
+    folder: "_reports" 
+    sort: "title:desc" # Default is title:asc
+    create: true # Allow users to create new documents in this collection
+    slug: "{{case}} - {{slug}}"
+    fields: # The fields each document in this collection have
+      - {label: "Layout", name: "layout", widget: "hidden", default: "report"}
+      - {label: "Has case file?", name: "has_casefile", widget: "boolean", default: "false"}
+      - {label: "Date", name: "date", widget: "date",   date_format: "YYYY-MM-DD" }
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Case", name: "case", widget: "string" }
+      - {label: "Author", name: "author", widget: "string" }
+      - {label: "Lead", name: "lead", widget: "string" }
+      - {label: "Researchers", name: "researchers", widget: "list"}
+      - {label: "CSIRT", name: "csirt", widget: "list"}
+      - {label: "Excerpt", name: "excerpt", widget: "text"}
+      - {label: "Start date", name: "start", widget: "date",   date_format: "YYYY-MM-DD" }
+      - {label: "End date", name: "end", widget: "date",   date_format: "YYYY-MM-DD" }
+      - {label: "Body", name: "body", widget: "markdown"}
