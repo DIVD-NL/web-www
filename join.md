@@ -7,7 +7,7 @@ header: join
 	<h2>join</h2>
 </header>
 DIVD is a non-profit organisation run by volunteers and a network of likeminded organisations.
-
+So please signup as a [volunteer](https://form.jotform.com/221242784790055).
 
 ### Vacancies
 
