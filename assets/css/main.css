@@ -2878,3 +2878,32 @@ body.is-menu-visible #menu {
   margin: 0px 0px 15px 15px;
   width: 25%;
 }
+
+.hero-banner {
+  background-image: url('/images/hero-banner.jpg'); 
+  background-size: cover;
+  background-position: center;
+  min-width: 900px;
+  min-height: 450px;
+  color: #fff; 
+  text-align: center;
+  padding: 100px 0; 
+}
+
+.grey-out {
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+  }
+  
+.grey-out:hover {
+    filter: grayscale(0%);
+}
+
+.logo {
+  height: 136px;
+  padding-top: 0px;
+  margin-top: -100px;
+  margin-left: 5px;
+  float: left;
+  filter: grayscale(0%); !important;
+}
