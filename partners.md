@@ -18,9 +18,6 @@ Erik Bais, owner of [A2B-Internet](https://www.a2b-internet.com) was so kind to 
 
 [BIT](https://www.bit.nl/) is sponsoring hosting space for our websites and mail server capacity.
 
-### Connect2Trust
-
-[Connect2Trust](https://www.connect2trust.nl) is a cooperation of Dutch (international) companies. Chairman of the Board Raymond Bierens has been with DIVD from the start on to help out and share knowledge.
 
 ### Cryptshare
 
@@ -50,6 +47,10 @@ We have our office at LunaVia, which also help us out with administrative tasks 
 
 [Protect4S](https://www.protect4s.com/) has supported DIVD with expertise on the security of SAP systems and resources to scan the internet for vulnerabilities related to SAP systems
 
+### Secura
+
+[Secura](https://www.secura.com) joined DIVDs new partnerprogram by providing annual funding
+
 ### Schouten Zekerheid
 
 [Schouten Zekerheid](https://www.schoutenzekerheid.nl/) Makelaars in Assurantiën is our insurance intermediary and supports us and our cause
@@ -58,9 +59,6 @@ We have our office at LunaVia, which also help us out with administrative tasks 
 
 [SIDN Fund](https://www.sidnfonds.nl/excerpt) provided financial support in 2020 to kick start DIVD.
 
-### Speak Freak
-
-Peter Zinn from [Speak Freak](https://speakfreak.eu/) provided presentation trainings to DIVD members
 
 ### Schuberg Philis
 
