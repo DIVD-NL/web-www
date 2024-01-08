@@ -49,7 +49,7 @@ We have our office at LunaVia, which also help us out with administrative tasks 
 
 ### Secura
 
-[Secura](https://www.secura.com) joined DIVDs new partnerporgram by providing annual funding
+[Secura](https://www.secura.com) joined DIVDs new partnerprogram by providing annual funding
 
 ### Schouten Zekerheid
 
