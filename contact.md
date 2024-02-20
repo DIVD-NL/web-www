@@ -27,22 +27,8 @@ Maanweg 174<br>
 2516 AB Den Haag<br>
 Tel.: (+31) 70 41 90 309
 
-## Confidential Advisor (vertrouwenspersoon)
-
-DIVD wants to be a safe organization, where everyone feels at home and respected. After all, together we do everything we can to prevent things such as 'bullying', conflicts and arguments, discrimination, and sexual intimidation within our institute.
-
-It is not possible to make a list of things that would or would not be sexual intimidation or aggression. In other words, it's not about the intentions of the person giving the unwanted attention, it's about how it comes across.
-The reason why someone behaves in this way is also irrelevant in determining whether there is sexual harassment, aggression, or violence. Even a person's accountability does not play a role. In practice, however, is a lot more complicated, after all, what one person experiences as a nuisance, need not disturb another.
-
-That is one of the reasons why DIVD has appointed two confidential advisors. A central point of contact to ensure that the way in which we interact within the institute remains professional, fun, and safe. Within the institute, the confidential counselors are the point of contact for anyone who is dealing with transgressive or sexually intimidating behavior and who wants to talk to someone about it.
-
-The confidential advisors at DIVD are:
-
-* [Jan Los](/people/Jan%20Los/)
-* Kato Vierbergen
-
-Both can be reached via [vertrouwenspersoon@divd.nl](mailto:vertrouwenspersoon@divd.nl)
-
-You can approach them for any kind of transgressive or sexually harassing behavior. He or she listens to your story and helps you look for possibilities to solve the situation. Your information will be treated in the strictest confidence and nothing will happen that you don't know.
-
-If needed, the confidential advisors can also help you to submit a complaint to the police. But of course, you can also just talk.
+## A safe working environment
+ 
+DIVD continuously strives  to be a safe and healthy organization, where everyone feels at home. Creating a workplace where individuals feel secure, included, valued, trusted and respected is crucial for fostering a positive and productive atmosphere. Maintaining such an environment is essential for the well-being and professional development of our workforce. Therefore DIVD has appointed confidential advisors, by which we aim to provide employees with a dedicated and trustworthy channel to address concerns related to unwanted behaviors or integrity violations.
+Unwanted behaviors, such as exclusion, bullying, harassment, discrimination, and aggression, can have a detrimental impact on an individual's well-being and the overall workplace environment. Similarly, integrity violations, encompassing actions like corruption, fraud, abuse of power, and disclosure of sensitive information, compromise the ethical foundation of an organization. DIVD acknowledges the severity of these issues and takes a proactive stance by not tolerating such behaviors.
+The presence of the confidential advisors underscores the importance of open communication, addressing issues promptly, and upholding ethical standards. By offering this support system, DIVD aims to ensure that employees feel heard, supported, and empowered to address concerns without fear of reprisal. Also, DIVD intends to strengthen the trusted relationship, reassure employees that their concerns are taken seriously, and demonstrate its commitment to maintaining a workplace where integrity is paramount.
