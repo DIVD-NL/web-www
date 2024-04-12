@@ -1,13 +1,13 @@
 teams:
-  - id: supervisory-board
-    name: "Supervisory Board"
-    show_members: true
-    description: |
-      Hacker initiatives like these, tend to have their own dynamics: sparks lead to flames, which die out or lead to wildfires, wasting energy along the way. To keep our minds focused on our goal to make the digital world a safer place and provide helpful hackers a solid platform, we installed a Supervisory Board of cyber security heavyweights. Each board member also represents a sector we try to get along in reaching our goals, i.e.: law enforcement, intelligence services, cyber security companies, academia and hackers.
+#  - id: supervisory-board
+#    name: "Supervisory Board"
+#    show_members: true
+#    description: |
+#      Hacker initiatives like these, tend to have their own dynamics: sparks lead to flames, which die out or lead to wildfires, wasting energy along the way. To keep our minds focused on our goal to make the digital world a safer place and provide helpful hackers a solid platform, we installed a Supervisory Board of cyber security heavyweights. Each board member also represents a sector we try to get along in reaching our goals, i.e.: law enforcement, intelligence services, cyber security companies, academia and hackers.
   - id: board
     name: "Board"
     show_members: true
-    reports_to: supervisory-board
+#    reports_to: supervisory-board
     description: |
       The board of directors is responsible for strategic leadership of DIVD.
   - id: institute-f4480f93
@@ -56,5 +56,3 @@ teams:
     description: Caring for our volunteers to the maximum extend.
 connectors:
   - 751352 # Chris
-  - 751074 # Casper
-  #- 751021 # Victor G
