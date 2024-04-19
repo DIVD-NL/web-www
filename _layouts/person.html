@@ -6,7 +6,7 @@ layout: default
 <b>Role</b>: {{ page.role }}
 <br>
 
-{{ content | markdownify }}
+{{ content | strip_html }}
 
 <br>
 {% if page.socials.twitterUrl or page.socials.linkedInUrl or page.socials.facebookUrl or page.socials.websiteUrl %}
