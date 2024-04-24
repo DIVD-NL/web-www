@@ -27,7 +27,7 @@ Erik Bais, owner of [A2B-Internet](https://www.a2b-internet.com) was so kind to 
 
 ### ESET
 
-Dave Maasland, CEO of [ESET](https://www.eset.com/nl/) sponsored DIVD in 2021 by paying most of the costs of our AS. In 2022 ESET supports us with a [serious donation](/donate/#donations-banktransfer) and free licenses
+Dave Maasland, CEO of [ESET](https://www.eset.com/nl/) sponsored DIVD in 2021 by paying most of the costs of our AS. Since 2022 ESET supports us with a [serious donation](/donate/#donations-banktransfer) and free licenses
 
 ### LunaVia
 
