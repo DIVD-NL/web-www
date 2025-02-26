@@ -3,12 +3,12 @@ run-name: Build, test and deploy website (if needed)
 on: 
   push:
     branches:
-      - main
+      - main-this-should-never-run
   pull_request:
     branches:
-      - main
-  schedule:
-    - cron: "15 3 * * *"
+      - main-this-should-never-run
+  #schedule:
+  #  - cron: "15 3 * * *"
 
 jobs:
   build_and_test:
